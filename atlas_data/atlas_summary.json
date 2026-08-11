@@ -1,0 +1,87 @@
+{
+  "encoder": "virchow2",
+  "n_genes_requested": 200,
+  "organs": {
+    "Lung": {
+      "n_slides": 15,
+      "n_studies": 3,
+      "n_genes": 200,
+      "n_spots": 16256,
+      "summary": {
+        "mean_r": 0.1766,
+        "median_r": 0.1911,
+        "n_learnable": 14,
+        "n_uncertain": 116,
+        "n_not_learnable": 70,
+        "selfconf_vs_r_spearman": 0.5117
+      },
+      "top_learnable": [
+        "CRABP1",
+        "CLU",
+        "WFDC2",
+        "PTGDS",
+        "FTL",
+        "SCD",
+        "IGFBP2",
+        "TUBA1B",
+        "SLC2A1",
+        "SPARC",
+        "FGFBP3",
+        "LYZ",
+        "DDIT4",
+        "B2M"
+      ]
+    },
+    "Bowel": {
+      "n_slides": 9,
+      "n_studies": 2,
+      "n_genes": 200,
+      "n_spots": 22667,
+      "summary": {
+        "mean_r": 0.3249,
+        "median_r": 0.2964,
+        "n_learnable": 97,
+        "n_uncertain": 80,
+        "n_not_learnable": 23,
+        "selfconf_vs_r_spearman": 0.618
+      },
+      "top_learnable": [
+        "APOA4",
+        "TAGLN",
+        "DES",
+        "MYL9",
+        "ACTG2",
+        "TPM2",
+        "MYLK",
+        "FLNA",
+        "CNN1",
+        "SYNPO2",
+        "CALD1",
+        "GUCA2A",
+        "FABP1",
+        "DEFA6",
+        "TPM1",
+        "ANPEP",
+        "TSPAN8",
+        "CDHR5",
+        "CLDN7",
+        "EPCAM"
+      ]
+    },
+    "Cervix": {
+      "n_slides": 4,
+      "n_studies": 1,
+      "n_genes": 200,
+      "n_spots": 4148,
+      "summary": {
+        "mean_r": 0.0112,
+        "median_r": 0.0084,
+        "n_learnable": 0,
+        "n_uncertain": 0,
+        "n_not_learnable": 200,
+        "selfconf_vs_r_spearman": -0.1941
+      },
+      "top_learnable": []
+    }
+  }
+}

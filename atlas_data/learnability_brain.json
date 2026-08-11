@@ -1,0 +1,2017 @@
+{
+  "organ": "Brain",
+  "encoder": "virchow2",
+  "n_slides": 6,
+  "n_studies": 1,
+  "n_genes": 200,
+  "n_spots": 9047,
+  "n_permutations": 1000,
+  "alpha": 0.05,
+  "block_size": 5,
+  "fold_type": "slide",
+  "n_learnable_fdr": 167,
+  "mean_observed_r": 0.0791,
+  "mean_null_r": -0.0,
+  "genes": [
+    {
+      "gene": "SPARC",
+      "observed_r": 0.0994,
+      "null_mean": -0.0003,
+      "null_std": 0.029,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.43,
+      "learnable": true
+    },
+    {
+      "gene": "DEFA5",
+      "observed_r": 0.2603,
+      "null_mean": 0.0005,
+      "null_std": 0.0271,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 9.58,
+      "learnable": true
+    },
+    {
+      "gene": "PTMA",
+      "observed_r": 0.086,
+      "null_mean": -0.0007,
+      "null_std": 0.0244,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.55,
+      "learnable": true
+    },
+    {
+      "gene": "NKD1",
+      "observed_r": 0.1126,
+      "null_mean": 0.0005,
+      "null_std": 0.0271,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.14,
+      "learnable": true
+    },
+    {
+      "gene": "CDK6",
+      "observed_r": 0.1689,
+      "null_mean": 0.0017,
+      "null_std": 0.0281,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.95,
+      "learnable": true
+    },
+    {
+      "gene": "ACTB",
+      "observed_r": 0.1721,
+      "null_mean": -0.0007,
+      "null_std": 0.0239,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.23,
+      "learnable": true
+    },
+    {
+      "gene": "BSG",
+      "observed_r": 0.1178,
+      "null_mean": -0.0001,
+      "null_std": 0.0248,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.75,
+      "learnable": true
+    },
+    {
+      "gene": "UBC",
+      "observed_r": 0.1594,
+      "null_mean": 0.0014,
+      "null_std": 0.0238,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.65,
+      "learnable": true
+    },
+    {
+      "gene": "FN1",
+      "observed_r": 0.1576,
+      "null_mean": 0.0001,
+      "null_std": 0.0263,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.99,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H4E",
+      "observed_r": 0.1562,
+      "null_mean": -0.0004,
+      "null_std": 0.0285,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.5,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H1E",
+      "observed_r": 0.1016,
+      "null_mean": -0.0009,
+      "null_std": 0.0277,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.7,
+      "learnable": true
+    },
+    {
+      "gene": "SP5",
+      "observed_r": 0.1814,
+      "null_mean": -0.0003,
+      "null_std": 0.0277,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.57,
+      "learnable": true
+    },
+    {
+      "gene": "STMN2",
+      "observed_r": 0.1004,
+      "null_mean": 0.0009,
+      "null_std": 0.0213,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.66,
+      "learnable": true
+    },
+    {
+      "gene": "FOS",
+      "observed_r": 0.1553,
+      "null_mean": 0.0006,
+      "null_std": 0.0264,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.86,
+      "learnable": true
+    },
+    {
+      "gene": "DPYSL2",
+      "observed_r": 0.1243,
+      "null_mean": -0.0007,
+      "null_std": 0.0236,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.29,
+      "learnable": true
+    },
+    {
+      "gene": "MARCKSL1",
+      "observed_r": 0.065,
+      "null_mean": 0.0,
+      "null_std": 0.0205,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.18,
+      "learnable": true
+    },
+    {
+      "gene": "CCN2",
+      "observed_r": 0.1632,
+      "null_mean": 0.0003,
+      "null_std": 0.0265,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.14,
+      "learnable": true
+    },
+    {
+      "gene": "TMSB4X",
+      "observed_r": 0.1617,
+      "null_mean": -0.0003,
+      "null_std": 0.0226,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.18,
+      "learnable": true
+    },
+    {
+      "gene": "PEG10",
+      "observed_r": 0.0792,
+      "null_mean": 0.001,
+      "null_std": 0.0221,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.54,
+      "learnable": true
+    },
+    {
+      "gene": "CLU",
+      "observed_r": 0.0899,
+      "null_mean": 0.0008,
+      "null_std": 0.0269,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.32,
+      "learnable": true
+    },
+    {
+      "gene": "PCBP4",
+      "observed_r": 0.1805,
+      "null_mean": -0.0003,
+      "null_std": 0.0233,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.75,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPA2B1",
+      "observed_r": 0.0627,
+      "null_mean": -0.0003,
+      "null_std": 0.0203,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.11,
+      "learnable": true
+    },
+    {
+      "gene": "NEFL",
+      "observed_r": 0.1114,
+      "null_mean": -0.0001,
+      "null_std": 0.0243,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.6,
+      "learnable": true
+    },
+    {
+      "gene": "NES",
+      "observed_r": 0.1099,
+      "null_mean": -0.0001,
+      "null_std": 0.0237,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.64,
+      "learnable": true
+    },
+    {
+      "gene": "NEFM",
+      "observed_r": 0.0959,
+      "null_mean": 0.0001,
+      "null_std": 0.0243,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.94,
+      "learnable": true
+    },
+    {
+      "gene": "DPYSL3",
+      "observed_r": 0.0984,
+      "null_mean": 0.0009,
+      "null_std": 0.0221,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.42,
+      "learnable": true
+    },
+    {
+      "gene": "RACK1",
+      "observed_r": 0.0822,
+      "null_mean": -0.0005,
+      "null_std": 0.0184,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.5,
+      "learnable": true
+    },
+    {
+      "gene": "FTH1",
+      "observed_r": 0.0639,
+      "null_mean": 0.0005,
+      "null_std": 0.0197,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.22,
+      "learnable": true
+    },
+    {
+      "gene": "RHOB",
+      "observed_r": 0.0899,
+      "null_mean": -0.0008,
+      "null_std": 0.0273,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.32,
+      "learnable": true
+    },
+    {
+      "gene": "APP",
+      "observed_r": 0.0977,
+      "null_mean": 0.0007,
+      "null_std": 0.0248,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.92,
+      "learnable": true
+    },
+    {
+      "gene": "HSPA8",
+      "observed_r": 0.0892,
+      "null_mean": 0.001,
+      "null_std": 0.0239,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.69,
+      "learnable": true
+    },
+    {
+      "gene": "CRABP1",
+      "observed_r": 0.1031,
+      "null_mean": -0.0003,
+      "null_std": 0.0203,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.08,
+      "learnable": true
+    },
+    {
+      "gene": "COL4A1",
+      "observed_r": 0.1033,
+      "null_mean": -0.0009,
+      "null_std": 0.0259,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.02,
+      "learnable": true
+    },
+    {
+      "gene": "CCN1",
+      "observed_r": 0.1142,
+      "null_mean": 0.0005,
+      "null_std": 0.0263,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.32,
+      "learnable": true
+    },
+    {
+      "gene": "MAP1B",
+      "observed_r": 0.1805,
+      "null_mean": 0.0004,
+      "null_std": 0.0201,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 8.96,
+      "learnable": true
+    },
+    {
+      "gene": "VIM",
+      "observed_r": 0.1631,
+      "null_mean": -0.0007,
+      "null_std": 0.0199,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 8.23,
+      "learnable": true
+    },
+    {
+      "gene": "PPDPF",
+      "observed_r": 0.0914,
+      "null_mean": -0.0001,
+      "null_std": 0.0252,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.63,
+      "learnable": true
+    },
+    {
+      "gene": "DDX5",
+      "observed_r": 0.1162,
+      "null_mean": 0.0009,
+      "null_std": 0.0216,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.33,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPA3",
+      "observed_r": 0.1202,
+      "null_mean": 0.0003,
+      "null_std": 0.0217,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.53,
+      "learnable": true
+    },
+    {
+      "gene": "EEF1G",
+      "observed_r": 0.172,
+      "null_mean": -0.0013,
+      "null_std": 0.0203,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 8.52,
+      "learnable": true
+    },
+    {
+      "gene": "EGR1",
+      "observed_r": 0.1606,
+      "null_mean": -0.0002,
+      "null_std": 0.0247,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.51,
+      "learnable": true
+    },
+    {
+      "gene": "POU3F2",
+      "observed_r": 0.0951,
+      "null_mean": -0.0008,
+      "null_std": 0.0238,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.03,
+      "learnable": true
+    },
+    {
+      "gene": "HSP90AA1",
+      "observed_r": 0.1034,
+      "null_mean": 0.0002,
+      "null_std": 0.0194,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.32,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H2BH",
+      "observed_r": 0.1134,
+      "null_mean": 0.0007,
+      "null_std": 0.0247,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.57,
+      "learnable": true
+    },
+    {
+      "gene": "KIF1B",
+      "observed_r": 0.0811,
+      "null_mean": 0.0001,
+      "null_std": 0.023,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.52,
+      "learnable": true
+    },
+    {
+      "gene": "PFN1",
+      "observed_r": 0.1137,
+      "null_mean": -0.0012,
+      "null_std": 0.0206,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.58,
+      "learnable": true
+    },
+    {
+      "gene": "TUBB2A",
+      "observed_r": 0.1129,
+      "null_mean": 0.0006,
+      "null_std": 0.0201,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.6,
+      "learnable": true
+    },
+    {
+      "gene": "OLFM1",
+      "observed_r": 0.1582,
+      "null_mean": 0.001,
+      "null_std": 0.0246,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.4,
+      "learnable": true
+    },
+    {
+      "gene": "STMN1",
+      "observed_r": 0.1129,
+      "null_mean": -0.0007,
+      "null_std": 0.0186,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.1,
+      "learnable": true
+    },
+    {
+      "gene": "FTL",
+      "observed_r": 0.0667,
+      "null_mean": 0.0008,
+      "null_std": 0.0193,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.41,
+      "learnable": true
+    },
+    {
+      "gene": "APOE",
+      "observed_r": 0.1574,
+      "null_mean": 0.001,
+      "null_std": 0.0223,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.02,
+      "learnable": true
+    },
+    {
+      "gene": "YWHAQ",
+      "observed_r": 0.074,
+      "null_mean": 0.0004,
+      "null_std": 0.0209,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.53,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H2AG",
+      "observed_r": 0.0903,
+      "null_mean": -0.0008,
+      "null_std": 0.0258,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.53,
+      "learnable": true
+    },
+    {
+      "gene": "IGFBP7",
+      "observed_r": 0.1886,
+      "null_mean": -0.0007,
+      "null_std": 0.0251,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.55,
+      "learnable": true
+    },
+    {
+      "gene": "INA",
+      "observed_r": 0.0801,
+      "null_mean": -0.0011,
+      "null_std": 0.0217,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.74,
+      "learnable": true
+    },
+    {
+      "gene": "TP53INP2",
+      "observed_r": 0.1037,
+      "null_mean": 0.0017,
+      "null_std": 0.0255,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.0,
+      "learnable": true
+    },
+    {
+      "gene": "EIF4G2",
+      "observed_r": 0.1163,
+      "null_mean": 0.0,
+      "null_std": 0.0206,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.64,
+      "learnable": true
+    },
+    {
+      "gene": "TTYH1",
+      "observed_r": 0.126,
+      "null_mean": -0.0007,
+      "null_std": 0.025,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.08,
+      "learnable": true
+    },
+    {
+      "gene": "UBA52",
+      "observed_r": 0.1042,
+      "null_mean": -0.0004,
+      "null_std": 0.0202,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.18,
+      "learnable": true
+    },
+    {
+      "gene": "GNAS",
+      "observed_r": 0.0944,
+      "null_mean": -0.0006,
+      "null_std": 0.019,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.0,
+      "learnable": true
+    },
+    {
+      "gene": "A2M",
+      "observed_r": 0.1168,
+      "null_mean": -0.0002,
+      "null_std": 0.0239,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.9,
+      "learnable": true
+    },
+    {
+      "gene": "MDK",
+      "observed_r": 0.1646,
+      "null_mean": -0.0002,
+      "null_std": 0.0185,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 8.88,
+      "learnable": true
+    },
+    {
+      "gene": "UCHL1",
+      "observed_r": 0.124,
+      "null_mean": 0.0002,
+      "null_std": 0.0221,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.59,
+      "learnable": true
+    },
+    {
+      "gene": "CALM3",
+      "observed_r": 0.0799,
+      "null_mean": -0.0002,
+      "null_std": 0.0223,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.6,
+      "learnable": true
+    },
+    {
+      "gene": "ATP5F1E",
+      "observed_r": 0.072,
+      "null_mean": -0.0011,
+      "null_std": 0.0188,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.89,
+      "learnable": true
+    },
+    {
+      "gene": "HSPA5",
+      "observed_r": 0.0661,
+      "null_mean": -0.0002,
+      "null_std": 0.0235,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 2.82,
+      "learnable": true
+    },
+    {
+      "gene": "NREP",
+      "observed_r": 0.1036,
+      "null_mean": -0.0004,
+      "null_std": 0.021,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.95,
+      "learnable": true
+    },
+    {
+      "gene": "NCAM1",
+      "observed_r": 0.1018,
+      "null_mean": 0.0,
+      "null_std": 0.0209,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.88,
+      "learnable": true
+    },
+    {
+      "gene": "DDX39B",
+      "observed_r": 0.129,
+      "null_mean": -0.0004,
+      "null_std": 0.0219,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.91,
+      "learnable": true
+    },
+    {
+      "gene": "MYH9",
+      "observed_r": 0.0891,
+      "null_mean": -0.0003,
+      "null_std": 0.025,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.58,
+      "learnable": true
+    },
+    {
+      "gene": "RBP1",
+      "observed_r": 0.1094,
+      "null_mean": -0.001,
+      "null_std": 0.0206,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.36,
+      "learnable": true
+    },
+    {
+      "gene": "SET",
+      "observed_r": 0.0783,
+      "null_mean": 0.0005,
+      "null_std": 0.0213,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.66,
+      "learnable": true
+    },
+    {
+      "gene": "DYNLL2",
+      "observed_r": 0.08,
+      "null_mean": 0.0007,
+      "null_std": 0.0212,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.74,
+      "learnable": true
+    },
+    {
+      "gene": "HMGB1",
+      "observed_r": 0.0713,
+      "null_mean": -0.0005,
+      "null_std": 0.0204,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.53,
+      "learnable": true
+    },
+    {
+      "gene": "CRABP2",
+      "observed_r": 0.1273,
+      "null_mean": 0.0008,
+      "null_std": 0.0247,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.13,
+      "learnable": true
+    },
+    {
+      "gene": "EIF4B",
+      "observed_r": 0.0786,
+      "null_mean": 0.001,
+      "null_std": 0.0242,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.21,
+      "learnable": true
+    },
+    {
+      "gene": "BEX3",
+      "observed_r": 0.0955,
+      "null_mean": 0.0007,
+      "null_std": 0.0213,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.45,
+      "learnable": true
+    },
+    {
+      "gene": "CRMP1",
+      "observed_r": 0.0744,
+      "null_mean": 0.0003,
+      "null_std": 0.0191,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.89,
+      "learnable": true
+    },
+    {
+      "gene": "SEPTIN2",
+      "observed_r": 0.0808,
+      "null_mean": 0.0004,
+      "null_std": 0.0227,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.54,
+      "learnable": true
+    },
+    {
+      "gene": "ODC1",
+      "observed_r": 0.1144,
+      "null_mean": -0.0005,
+      "null_std": 0.0221,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.21,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPC",
+      "observed_r": 0.0812,
+      "null_mean": 0.0004,
+      "null_std": 0.0208,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.9,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPU",
+      "observed_r": 0.0928,
+      "null_mean": 0.0003,
+      "null_std": 0.0189,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.89,
+      "learnable": true
+    },
+    {
+      "gene": "MEIS1",
+      "observed_r": 0.0784,
+      "null_mean": -0.0004,
+      "null_std": 0.0245,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.22,
+      "learnable": true
+    },
+    {
+      "gene": "HLA-E",
+      "observed_r": 0.0853,
+      "null_mean": 0.0,
+      "null_std": 0.0262,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.25,
+      "learnable": true
+    },
+    {
+      "gene": "FOSB",
+      "observed_r": 0.162,
+      "null_mean": -0.0014,
+      "null_std": 0.0256,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.37,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H2BG",
+      "observed_r": 0.1604,
+      "null_mean": -0.0022,
+      "null_std": 0.0244,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 6.65,
+      "learnable": true
+    },
+    {
+      "gene": "MIF",
+      "observed_r": 0.107,
+      "null_mean": 0.0003,
+      "null_std": 0.0186,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.72,
+      "learnable": true
+    },
+    {
+      "gene": "SLC17A7",
+      "observed_r": 0.1414,
+      "null_mean": -0.0009,
+      "null_std": 0.0264,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 5.38,
+      "learnable": true
+    },
+    {
+      "gene": "RTN1",
+      "observed_r": 0.1793,
+      "null_mean": 0.0003,
+      "null_std": 0.0232,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 7.71,
+      "learnable": true
+    },
+    {
+      "gene": "ARGLU1",
+      "observed_r": 0.1141,
+      "null_mean": 0.0007,
+      "null_std": 0.0232,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.9,
+      "learnable": true
+    },
+    {
+      "gene": "H3F3B",
+      "observed_r": 0.0786,
+      "null_mean": -0.0006,
+      "null_std": 0.0183,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.32,
+      "learnable": true
+    },
+    {
+      "gene": "RCN2",
+      "observed_r": 0.0866,
+      "null_mean": -0.0004,
+      "null_std": 0.0238,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.66,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H4C",
+      "observed_r": 0.1242,
+      "null_mean": -0.0002,
+      "null_std": 0.0252,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.93,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H3D",
+      "observed_r": 0.1121,
+      "null_mean": -0.0004,
+      "null_std": 0.0248,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.53,
+      "learnable": true
+    },
+    {
+      "gene": "ZIC1",
+      "observed_r": 0.0856,
+      "null_mean": 0.0008,
+      "null_std": 0.0257,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.29,
+      "learnable": true
+    },
+    {
+      "gene": "SNRNP70",
+      "observed_r": 0.1009,
+      "null_mean": 0.0009,
+      "null_std": 0.0215,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.65,
+      "learnable": true
+    },
+    {
+      "gene": "PXDN",
+      "observed_r": 0.0881,
+      "null_mean": 0.0011,
+      "null_std": 0.0218,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.99,
+      "learnable": true
+    },
+    {
+      "gene": "SDC3",
+      "observed_r": 0.0877,
+      "null_mean": 0.0001,
+      "null_std": 0.0185,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.74,
+      "learnable": true
+    },
+    {
+      "gene": "PEBP1",
+      "observed_r": 0.078,
+      "null_mean": -0.0003,
+      "null_std": 0.0188,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 4.17,
+      "learnable": true
+    },
+    {
+      "gene": "NOP53",
+      "observed_r": 0.0843,
+      "null_mean": -0.0003,
+      "null_std": 0.0212,
+      "p_value": 0.000999,
+      "q_value": 0.001998,
+      "effect_size": 3.98,
+      "learnable": true
+    },
+    {
+      "gene": "PABPC1",
+      "observed_r": 0.0624,
+      "null_mean": -0.0004,
+      "null_std": 0.0207,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 3.03,
+      "learnable": true
+    },
+    {
+      "gene": "CKB",
+      "observed_r": 0.0591,
+      "null_mean": 0.0011,
+      "null_std": 0.0211,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 2.75,
+      "learnable": true
+    },
+    {
+      "gene": "NSG1",
+      "observed_r": 0.0696,
+      "null_mean": 0.0008,
+      "null_std": 0.0237,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 2.91,
+      "learnable": true
+    },
+    {
+      "gene": "FSCN1",
+      "observed_r": 0.0636,
+      "null_mean": 0.0004,
+      "null_std": 0.0174,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 3.64,
+      "learnable": true
+    },
+    {
+      "gene": "ACTA2",
+      "observed_r": 0.0751,
+      "null_mean": -0.0003,
+      "null_std": 0.0256,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 2.95,
+      "learnable": true
+    },
+    {
+      "gene": "NR4A1",
+      "observed_r": 0.087,
+      "null_mean": 0.0006,
+      "null_std": 0.0252,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 3.43,
+      "learnable": true
+    },
+    {
+      "gene": "SF3B1",
+      "observed_r": 0.0606,
+      "null_mean": 0.0,
+      "null_std": 0.0213,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 2.84,
+      "learnable": true
+    },
+    {
+      "gene": "PTGES3",
+      "observed_r": 0.0759,
+      "null_mean": -0.0006,
+      "null_std": 0.0231,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 3.31,
+      "learnable": true
+    },
+    {
+      "gene": "L1CAM",
+      "observed_r": 0.0748,
+      "null_mean": 0.0,
+      "null_std": 0.023,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 3.25,
+      "learnable": true
+    },
+    {
+      "gene": "EEF1B2",
+      "observed_r": 0.0549,
+      "null_mean": 0.0002,
+      "null_std": 0.0196,
+      "p_value": 0.001998,
+      "q_value": 0.003633,
+      "effect_size": 2.79,
+      "learnable": true
+    },
+    {
+      "gene": "MARCKS",
+      "observed_r": 0.0549,
+      "null_mean": -0.0012,
+      "null_std": 0.0231,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.43,
+      "learnable": true
+    },
+    {
+      "gene": "OAZ1",
+      "observed_r": 0.0771,
+      "null_mean": 0.0001,
+      "null_std": 0.0249,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 3.09,
+      "learnable": true
+    },
+    {
+      "gene": "XRCC5",
+      "observed_r": 0.0692,
+      "null_mean": -0.0005,
+      "null_std": 0.0242,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.88,
+      "learnable": true
+    },
+    {
+      "gene": "H3F3A",
+      "observed_r": 0.0542,
+      "null_mean": 0.0004,
+      "null_std": 0.0198,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.71,
+      "learnable": true
+    },
+    {
+      "gene": "MCM7",
+      "observed_r": 0.0593,
+      "null_mean": -0.0008,
+      "null_std": 0.0206,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.92,
+      "learnable": true
+    },
+    {
+      "gene": "CD63",
+      "observed_r": 0.0667,
+      "null_mean": -0.0011,
+      "null_std": 0.0221,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 3.07,
+      "learnable": true
+    },
+    {
+      "gene": "KHSRP",
+      "observed_r": 0.0608,
+      "null_mean": 0.001,
+      "null_std": 0.0236,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.53,
+      "learnable": true
+    },
+    {
+      "gene": "TIA1",
+      "observed_r": 0.0678,
+      "null_mean": 0.0008,
+      "null_std": 0.0238,
+      "p_value": 0.002997,
+      "q_value": 0.00508,
+      "effect_size": 2.82,
+      "learnable": true
+    },
+    {
+      "gene": "HIST1H2BO",
+      "observed_r": 0.0757,
+      "null_mean": 0.0014,
+      "null_std": 0.0269,
+      "p_value": 0.003996,
+      "q_value": 0.006605,
+      "effect_size": 2.77,
+      "learnable": true
+    },
+    {
+      "gene": "NCL",
+      "observed_r": 0.0476,
+      "null_mean": 0.001,
+      "null_std": 0.0188,
+      "p_value": 0.003996,
+      "q_value": 0.006605,
+      "effect_size": 2.48,
+      "learnable": true
+    },
+    {
+      "gene": "MAT2A",
+      "observed_r": 0.0686,
+      "null_mean": -0.0001,
+      "null_std": 0.0231,
+      "p_value": 0.003996,
+      "q_value": 0.006605,
+      "effect_size": 2.98,
+      "learnable": true
+    },
+    {
+      "gene": "B2M",
+      "observed_r": 0.0732,
+      "null_mean": 0.0006,
+      "null_std": 0.0265,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.74,
+      "learnable": true
+    },
+    {
+      "gene": "DDX17",
+      "observed_r": 0.0535,
+      "null_mean": -0.0013,
+      "null_std": 0.0215,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.54,
+      "learnable": true
+    },
+    {
+      "gene": "RTN4",
+      "observed_r": 0.0637,
+      "null_mean": 0.0001,
+      "null_std": 0.0238,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.67,
+      "learnable": true
+    },
+    {
+      "gene": "SFRP2",
+      "observed_r": 0.0604,
+      "null_mean": -0.001,
+      "null_std": 0.0246,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.5,
+      "learnable": true
+    },
+    {
+      "gene": "EIF4A1",
+      "observed_r": 0.0486,
+      "null_mean": -0.0012,
+      "null_std": 0.019,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.63,
+      "learnable": true
+    },
+    {
+      "gene": "PCBP2",
+      "observed_r": 0.0535,
+      "null_mean": 0.0009,
+      "null_std": 0.0207,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.54,
+      "learnable": true
+    },
+    {
+      "gene": "AP2M1",
+      "observed_r": 0.0558,
+      "null_mean": -0.001,
+      "null_std": 0.022,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.58,
+      "learnable": true
+    },
+    {
+      "gene": "SRRM2",
+      "observed_r": 0.0586,
+      "null_mean": 0.0003,
+      "null_std": 0.021,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.77,
+      "learnable": true
+    },
+    {
+      "gene": "COL1A2",
+      "observed_r": 0.0677,
+      "null_mean": 0.0012,
+      "null_std": 0.0247,
+      "p_value": 0.004995,
+      "q_value": 0.007685,
+      "effect_size": 2.7,
+      "learnable": true
+    },
+    {
+      "gene": "EEF2",
+      "observed_r": 0.0561,
+      "null_mean": 0.0009,
+      "null_std": 0.022,
+      "p_value": 0.005994,
+      "q_value": 0.008946,
+      "effect_size": 2.51,
+      "learnable": true
+    },
+    {
+      "gene": "PCBP1",
+      "observed_r": 0.0586,
+      "null_mean": 0.0009,
+      "null_std": 0.0211,
+      "p_value": 0.005994,
+      "q_value": 0.008946,
+      "effect_size": 2.74,
+      "learnable": true
+    },
+    {
+      "gene": "PTGDS",
+      "observed_r": 0.0639,
+      "null_mean": 0.0002,
+      "null_std": 0.0256,
+      "p_value": 0.005994,
+      "q_value": 0.008946,
+      "effect_size": 2.48,
+      "learnable": true
+    },
+    {
+      "gene": "ID4",
+      "observed_r": 0.0571,
+      "null_mean": 0.0,
+      "null_std": 0.0245,
+      "p_value": 0.005994,
+      "q_value": 0.008946,
+      "effect_size": 2.33,
+      "learnable": true
+    },
+    {
+      "gene": "PTMS",
+      "observed_r": 0.0618,
+      "null_mean": 0.0,
+      "null_std": 0.0244,
+      "p_value": 0.006993,
+      "q_value": 0.010135,
+      "effect_size": 2.53,
+      "learnable": true
+    },
+    {
+      "gene": "YWHAG",
+      "observed_r": 0.0528,
+      "null_mean": -0.001,
+      "null_std": 0.0234,
+      "p_value": 0.006993,
+      "q_value": 0.010135,
+      "effect_size": 2.3,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPUL1",
+      "observed_r": 0.0681,
+      "null_mean": -0.0008,
+      "null_std": 0.0261,
+      "p_value": 0.006993,
+      "q_value": 0.010135,
+      "effect_size": 2.64,
+      "learnable": true
+    },
+    {
+      "gene": "H1F0",
+      "observed_r": 0.0464,
+      "null_mean": -0.0011,
+      "null_std": 0.0191,
+      "p_value": 0.006993,
+      "q_value": 0.010135,
+      "effect_size": 2.49,
+      "learnable": true
+    },
+    {
+      "gene": "STMN4",
+      "observed_r": 0.0531,
+      "null_mean": 0.0004,
+      "null_std": 0.022,
+      "p_value": 0.007992,
+      "q_value": 0.011499,
+      "effect_size": 2.4,
+      "learnable": true
+    },
+    {
+      "gene": "SERBP1",
+      "observed_r": 0.0583,
+      "null_mean": -0.0004,
+      "null_std": 0.024,
+      "p_value": 0.008991,
+      "q_value": 0.012663,
+      "effect_size": 2.44,
+      "learnable": true
+    },
+    {
+      "gene": "ENO1",
+      "observed_r": 0.0516,
+      "null_mean": 0.0003,
+      "null_std": 0.0217,
+      "p_value": 0.008991,
+      "q_value": 0.012663,
+      "effect_size": 2.36,
+      "learnable": true
+    },
+    {
+      "gene": "CTSD",
+      "observed_r": 0.0583,
+      "null_mean": 0.0004,
+      "null_std": 0.0237,
+      "p_value": 0.008991,
+      "q_value": 0.012663,
+      "effect_size": 2.44,
+      "learnable": true
+    },
+    {
+      "gene": "CBX5",
+      "observed_r": 0.0553,
+      "null_mean": -0.0013,
+      "null_std": 0.0235,
+      "p_value": 0.00999,
+      "q_value": 0.013972,
+      "effect_size": 2.41,
+      "learnable": true
+    },
+    {
+      "gene": "GFAP",
+      "observed_r": 0.064,
+      "null_mean": -0.0,
+      "null_std": 0.0277,
+      "p_value": 0.011988,
+      "q_value": 0.016535,
+      "effect_size": 2.32,
+      "learnable": true
+    },
+    {
+      "gene": "GNAI2",
+      "observed_r": 0.0469,
+      "null_mean": -0.0003,
+      "null_std": 0.0216,
+      "p_value": 0.011988,
+      "q_value": 0.016535,
+      "effect_size": 2.19,
+      "learnable": true
+    },
+    {
+      "gene": "GDI1",
+      "observed_r": 0.0475,
+      "null_mean": 0.0015,
+      "null_std": 0.02,
+      "p_value": 0.012987,
+      "q_value": 0.01779,
+      "effect_size": 2.3,
+      "learnable": true
+    },
+    {
+      "gene": "CST3",
+      "observed_r": 0.0509,
+      "null_mean": -0.002,
+      "null_std": 0.0241,
+      "p_value": 0.013986,
+      "q_value": 0.019029,
+      "effect_size": 2.19,
+      "learnable": true
+    },
+    {
+      "gene": "EVL",
+      "observed_r": 0.0485,
+      "null_mean": 0.0009,
+      "null_std": 0.0209,
+      "p_value": 0.015984,
+      "q_value": 0.0216,
+      "effect_size": 2.28,
+      "learnable": true
+    },
+    {
+      "gene": "CALR",
+      "observed_r": 0.0474,
+      "null_mean": -0.0003,
+      "null_std": 0.0233,
+      "p_value": 0.017982,
+      "q_value": 0.023976,
+      "effect_size": 2.05,
+      "learnable": true
+    },
+    {
+      "gene": "AXIN2",
+      "observed_r": 0.0566,
+      "null_mean": -0.0006,
+      "null_std": 0.0262,
+      "p_value": 0.017982,
+      "q_value": 0.023976,
+      "effect_size": 2.18,
+      "learnable": true
+    },
+    {
+      "gene": "H1FX",
+      "observed_r": 0.0557,
+      "null_mean": 0.0006,
+      "null_std": 0.0252,
+      "p_value": 0.01998,
+      "q_value": 0.026464,
+      "effect_size": 2.18,
+      "learnable": true
+    },
+    {
+      "gene": "COTL1",
+      "observed_r": 0.0473,
+      "null_mean": 0.0003,
+      "null_std": 0.0225,
+      "p_value": 0.020979,
+      "q_value": 0.027604,
+      "effect_size": 2.09,
+      "learnable": true
+    },
+    {
+      "gene": "HNRNPR",
+      "observed_r": 0.0497,
+      "null_mean": 0.0004,
+      "null_std": 0.0235,
+      "p_value": 0.021978,
+      "q_value": 0.028729,
+      "effect_size": 2.09,
+      "learnable": true
+    },
+    {
+      "gene": "TLE5",
+      "observed_r": 0.0501,
+      "null_mean": -0.0013,
+      "null_std": 0.0244,
+      "p_value": 0.022977,
+      "q_value": 0.02984,
+      "effect_size": 2.1,
+      "learnable": true
+    },
+    {
+      "gene": "CIRBP",
+      "observed_r": 0.0379,
+      "null_mean": -0.0011,
+      "null_std": 0.0217,
+      "p_value": 0.025974,
+      "q_value": 0.033515,
+      "effect_size": 1.8,
+      "learnable": true
+    },
+    {
+      "gene": "HSP90AB1",
+      "observed_r": 0.0424,
+      "null_mean": -0.0003,
+      "null_std": 0.0216,
+      "p_value": 0.026973,
+      "q_value": 0.034581,
+      "effect_size": 1.97,
+      "learnable": true
+    },
+    {
+      "gene": "USP22",
+      "observed_r": 0.0432,
+      "null_mean": -0.0003,
+      "null_std": 0.0236,
+      "p_value": 0.028971,
+      "q_value": 0.036906,
+      "effect_size": 1.85,
+      "learnable": true
+    },
+    {
+      "gene": "NONO",
+      "observed_r": 0.0431,
+      "null_mean": -0.0003,
+      "null_std": 0.023,
+      "p_value": 0.02997,
+      "q_value": 0.037937,
+      "effect_size": 1.88,
+      "learnable": true
+    },
+    {
+      "gene": "SFPQ",
+      "observed_r": 0.0361,
+      "null_mean": -0.0001,
+      "null_std": 0.0198,
+      "p_value": 0.030969,
+      "q_value": 0.038711,
+      "effect_size": 1.82,
+      "learnable": true
+    },
+    {
+      "gene": "SRSF3",
+      "observed_r": 0.0369,
+      "null_mean": -0.001,
+      "null_std": 0.0215,
+      "p_value": 0.030969,
+      "q_value": 0.038711,
+      "effect_size": 1.76,
+      "learnable": true
+    },
+    {
+      "gene": "JUNB",
+      "observed_r": 0.052,
+      "null_mean": 0.0002,
+      "null_std": 0.0277,
+      "p_value": 0.031968,
+      "q_value": 0.039712,
+      "effect_size": 1.87,
+      "learnable": true
+    },
+    {
+      "gene": "PTK2",
+      "observed_r": 0.0484,
+      "null_mean": 0.0022,
+      "null_std": 0.024,
+      "p_value": 0.032967,
+      "q_value": 0.0407,
+      "effect_size": 1.92,
+      "learnable": true
+    },
+    {
+      "gene": "PSAP",
+      "observed_r": 0.0421,
+      "null_mean": -0.0003,
+      "null_std": 0.023,
+      "p_value": 0.033966,
+      "q_value": 0.041676,
+      "effect_size": 1.84,
+      "learnable": true
+    },
+    {
+      "gene": "CALD1",
+      "observed_r": 0.0458,
+      "null_mean": -0.0,
+      "null_std": 0.0255,
+      "p_value": 0.035964,
+      "q_value": 0.04333,
+      "effect_size": 1.79,
+      "learnable": true
+    },
+    {
+      "gene": "DYNC1H1",
+      "observed_r": 0.038,
+      "null_mean": 0.0007,
+      "null_std": 0.0212,
+      "p_value": 0.035964,
+      "q_value": 0.04333,
+      "effect_size": 1.76,
+      "learnable": true
+    },
+    {
+      "gene": "DCX",
+      "observed_r": 0.0394,
+      "null_mean": -0.0003,
+      "null_std": 0.0225,
+      "p_value": 0.035964,
+      "q_value": 0.04333,
+      "effect_size": 1.77,
+      "learnable": true
+    },
+    {
+      "gene": "GABARAP",
+      "observed_r": 0.0334,
+      "null_mean": -0.0002,
+      "null_std": 0.0184,
+      "p_value": 0.040959,
+      "q_value": 0.049053,
+      "effect_size": 1.82,
+      "learnable": true
+    },
+    {
+      "gene": "CD24",
+      "observed_r": 0.0333,
+      "null_mean": -0.0002,
+      "null_std": 0.0196,
+      "p_value": 0.042957,
+      "q_value": 0.051139,
+      "effect_size": 1.71,
+      "learnable": false
+    },
+    {
+      "gene": "RHOA",
+      "observed_r": 0.0399,
+      "null_mean": -0.001,
+      "null_std": 0.0244,
+      "p_value": 0.044955,
+      "q_value": 0.053201,
+      "effect_size": 1.68,
+      "learnable": false
+    },
+    {
+      "gene": "PBX1",
+      "observed_r": 0.0412,
+      "null_mean": 0.0004,
+      "null_std": 0.0244,
+      "p_value": 0.045954,
+      "q_value": 0.054064,
+      "effect_size": 1.67,
+      "learnable": false
+    },
+    {
+      "gene": "SRSF1",
+      "observed_r": 0.0401,
+      "null_mean": -0.0005,
+      "null_std": 0.0245,
+      "p_value": 0.051948,
+      "q_value": 0.060758,
+      "effect_size": 1.66,
+      "learnable": false
+    },
+    {
+      "gene": "EPHA7",
+      "observed_r": 0.0406,
+      "null_mean": -0.0003,
+      "null_std": 0.0255,
+      "p_value": 0.053946,
+      "q_value": 0.062728,
+      "effect_size": 1.6,
+      "learnable": false
+    },
+    {
+      "gene": "FUS",
+      "observed_r": 0.0369,
+      "null_mean": -0.0004,
+      "null_std": 0.0225,
+      "p_value": 0.056943,
+      "q_value": 0.065452,
+      "effect_size": 1.66,
+      "learnable": false
+    },
+    {
+      "gene": "APCDD1",
+      "observed_r": 0.0422,
+      "null_mean": 0.0004,
+      "null_std": 0.0267,
+      "p_value": 0.056943,
+      "q_value": 0.065452,
+      "effect_size": 1.57,
+      "learnable": false
+    },
+    {
+      "gene": "QKI",
+      "observed_r": 0.0396,
+      "null_mean": 0.0018,
+      "null_std": 0.0247,
+      "p_value": 0.062937,
+      "q_value": 0.071928,
+      "effect_size": 1.53,
+      "learnable": false
+    },
+    {
+      "gene": "ILF3",
+      "observed_r": 0.0305,
+      "null_mean": -0.0002,
+      "null_std": 0.0216,
+      "p_value": 0.076923,
+      "q_value": 0.086919,
+      "effect_size": 1.42,
+      "learnable": false
+    },
+    {
+      "gene": "GTF2I",
+      "observed_r": 0.0274,
+      "null_mean": -0.001,
+      "null_std": 0.0196,
+      "p_value": 0.076923,
+      "q_value": 0.086919,
+      "effect_size": 1.45,
+      "learnable": false
+    },
+    {
+      "gene": "EEF1D",
+      "observed_r": 0.0282,
+      "null_mean": 0.0,
+      "null_std": 0.0195,
+      "p_value": 0.07992,
+      "q_value": 0.089798,
+      "effect_size": 1.44,
+      "learnable": false
+    },
+    {
+      "gene": "HNRNPA0",
+      "observed_r": 0.0292,
+      "null_mean": -0.0004,
+      "null_std": 0.0221,
+      "p_value": 0.088911,
+      "q_value": 0.099342,
+      "effect_size": 1.33,
+      "learnable": false
+    },
+    {
+      "gene": "NDUFA3",
+      "observed_r": 0.0227,
+      "null_mean": -0.0002,
+      "null_std": 0.0182,
+      "p_value": 0.105894,
+      "q_value": 0.11766,
+      "effect_size": 1.26,
+      "learnable": false
+    },
+    {
+      "gene": "ITM2B",
+      "observed_r": 0.0297,
+      "null_mean": -0.0004,
+      "null_std": 0.0256,
+      "p_value": 0.116883,
+      "q_value": 0.129153,
+      "effect_size": 1.17,
+      "learnable": false
+    },
+    {
+      "gene": "TNC",
+      "observed_r": 0.0271,
+      "null_mean": -0.0007,
+      "null_std": 0.0271,
+      "p_value": 0.157842,
+      "q_value": 0.173453,
+      "effect_size": 1.02,
+      "learnable": false
+    },
+    {
+      "gene": "CHCHD2",
+      "observed_r": 0.0203,
+      "null_mean": 0.0002,
+      "null_std": 0.0203,
+      "p_value": 0.166833,
+      "q_value": 0.182331,
+      "effect_size": 0.99,
+      "learnable": false
+    },
+    {
+      "gene": "GPC2",
+      "observed_r": 0.0209,
+      "null_mean": 0.0018,
+      "null_std": 0.0229,
+      "p_value": 0.191808,
+      "q_value": 0.208487,
+      "effect_size": 0.83,
+      "learnable": false
+    },
+    {
+      "gene": "HES6",
+      "observed_r": 0.0175,
+      "null_mean": -0.0005,
+      "null_std": 0.021,
+      "p_value": 0.201798,
+      "q_value": 0.21816,
+      "effect_size": 0.86,
+      "learnable": false
+    },
+    {
+      "gene": "SQSTM1",
+      "observed_r": 0.019,
+      "null_mean": 0.0,
+      "null_std": 0.0259,
+      "p_value": 0.210789,
+      "q_value": 0.226655,
+      "effect_size": 0.73,
+      "learnable": false
+    },
+    {
+      "gene": "PRRC2B",
+      "observed_r": 0.0185,
+      "null_mean": -0.0,
+      "null_std": 0.0236,
+      "p_value": 0.212787,
+      "q_value": 0.227141,
+      "effect_size": 0.78,
+      "learnable": false
+    },
+    {
+      "gene": "ATP5F1B",
+      "observed_r": 0.0171,
+      "null_mean": 0.0005,
+      "null_std": 0.0206,
+      "p_value": 0.214785,
+      "q_value": 0.227141,
+      "effect_size": 0.8,
+      "learnable": false
+    },
+    {
+      "gene": "GNB1",
+      "observed_r": 0.0183,
+      "null_mean": 0.0006,
+      "null_std": 0.0222,
+      "p_value": 0.215784,
+      "q_value": 0.227141,
+      "effect_size": 0.8,
+      "learnable": false
+    },
+    {
+      "gene": "HNRNPAB",
+      "observed_r": 0.0165,
+      "null_mean": -0.0005,
+      "null_std": 0.0218,
+      "p_value": 0.215784,
+      "q_value": 0.227141,
+      "effect_size": 0.78,
+      "learnable": false
+    },
+    {
+      "gene": "TMBIM6",
+      "observed_r": 0.018,
+      "null_mean": 0.0009,
+      "null_std": 0.0238,
+      "p_value": 0.228771,
+      "q_value": 0.239551,
+      "effect_size": 0.72,
+      "learnable": false
+    },
+    {
+      "gene": "JPT1",
+      "observed_r": 0.0153,
+      "null_mean": -0.0006,
+      "null_std": 0.0221,
+      "p_value": 0.244755,
+      "q_value": 0.254668,
+      "effect_size": 0.72,
+      "learnable": false
+    },
+    {
+      "gene": "SOX4",
+      "observed_r": 0.0125,
+      "null_mean": -0.0007,
+      "null_std": 0.0197,
+      "p_value": 0.245754,
+      "q_value": 0.254668,
+      "effect_size": 0.67,
+      "learnable": false
+    },
+    {
+      "gene": "SOX11",
+      "observed_r": 0.0142,
+      "null_mean": 0.0004,
+      "null_std": 0.0223,
+      "p_value": 0.254745,
+      "q_value": 0.262624,
+      "effect_size": 0.62,
+      "learnable": false
+    },
+    {
+      "gene": "TUBA1B",
+      "observed_r": 0.0144,
+      "null_mean": -0.0002,
+      "null_std": 0.022,
+      "p_value": 0.256743,
+      "q_value": 0.263326,
+      "effect_size": 0.66,
+      "learnable": false
+    },
+    {
+      "gene": "FXYD6",
+      "observed_r": 0.0141,
+      "null_mean": 0.0004,
+      "null_std": 0.0231,
+      "p_value": 0.278721,
+      "q_value": 0.284409,
+      "effect_size": 0.59,
+      "learnable": false
+    },
+    {
+      "gene": "HNRNPDL",
+      "observed_r": 0.0103,
+      "null_mean": -0.0005,
+      "null_std": 0.0221,
+      "p_value": 0.322677,
+      "q_value": 0.327591,
+      "effect_size": 0.49,
+      "learnable": false
+    },
+    {
+      "gene": "HNRNPH1",
+      "observed_r": 0.0076,
+      "null_mean": 0.0009,
+      "null_std": 0.0204,
+      "p_value": 0.360639,
+      "q_value": 0.364282,
+      "effect_size": 0.33,
+      "learnable": false
+    },
+    {
+      "gene": "KHDRBS1",
+      "observed_r": 0.0023,
+      "null_mean": 0.0005,
+      "null_std": 0.0233,
+      "p_value": 0.467532,
+      "q_value": 0.469882,
+      "effect_size": 0.08,
+      "learnable": false
+    },
+    {
+      "gene": "HSPB1",
+      "observed_r": -0.0091,
+      "null_mean": -0.001,
+      "null_std": 0.0252,
+      "p_value": 0.62038,
+      "q_value": 0.62038,
+      "effect_size": -0.32,
+      "learnable": false
+    }
+  ]
+}

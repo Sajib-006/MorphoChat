@@ -1,0 +1,1619 @@
+{
+  "organ": "Prostate",
+  "n_slides": 4,
+  "n_studies": 1,
+  "n_genes": 200,
+  "n_spots": 15682,
+  "fold_type": "slide",
+  "n_folds": 4,
+  "summary": {
+    "mean_r": 0.434,
+    "median_r": 0.455,
+    "n_learnable": 137,
+    "n_uncertain": 35,
+    "n_not_learnable": 28,
+    "selfconf_vs_r_spearman": 0.028
+  },
+  "genes": [
+    {
+      "gene": "MYL9",
+      "r_loso": 0.9211,
+      "self_confidence": 0.8133,
+      "stability": null,
+      "morans_i": 0.2791,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ACTG2",
+      "r_loso": 0.8955,
+      "self_confidence": 0.7652,
+      "stability": null,
+      "morans_i": 0.3002,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TAGLN",
+      "r_loso": 0.8943,
+      "self_confidence": 0.7757,
+      "stability": null,
+      "morans_i": 0.2931,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FLNA",
+      "r_loso": 0.8827,
+      "self_confidence": 0.7666,
+      "stability": null,
+      "morans_i": 0.294,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TPM2",
+      "r_loso": 0.8825,
+      "self_confidence": 0.748,
+      "stability": null,
+      "morans_i": 0.2981,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MSMB",
+      "r_loso": 0.8781,
+      "self_confidence": 0.7597,
+      "stability": null,
+      "morans_i": 0.2377,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "DES",
+      "r_loso": 0.8728,
+      "self_confidence": 0.7077,
+      "stability": null,
+      "morans_i": 0.2731,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ACTA2",
+      "r_loso": 0.8572,
+      "self_confidence": 0.7351,
+      "stability": null,
+      "morans_i": 0.2858,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CNN1",
+      "r_loso": 0.823,
+      "self_confidence": 0.6424,
+      "stability": null,
+      "morans_i": 0.2449,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "AMACR",
+      "r_loso": 0.775,
+      "self_confidence": 0.6032,
+      "stability": null,
+      "morans_i": 0.1859,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PTGDS",
+      "r_loso": 0.768,
+      "self_confidence": 0.602,
+      "stability": null,
+      "morans_i": 0.2694,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FABP5",
+      "r_loso": 0.7644,
+      "self_confidence": 0.6481,
+      "stability": null,
+      "morans_i": 0.21,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CCN2",
+      "r_loso": 0.7552,
+      "self_confidence": 0.6567,
+      "stability": null,
+      "morans_i": 0.2746,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CALD1",
+      "r_loso": 0.7507,
+      "self_confidence": 0.5896,
+      "stability": null,
+      "morans_i": 0.2693,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FBLN1",
+      "r_loso": 0.7438,
+      "self_confidence": 0.5918,
+      "stability": null,
+      "morans_i": 0.2845,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ADIRF",
+      "r_loso": 0.7399,
+      "self_confidence": 0.6127,
+      "stability": null,
+      "morans_i": 0.203,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SPON2",
+      "r_loso": 0.7249,
+      "self_confidence": 0.5083,
+      "stability": null,
+      "morans_i": 0.1655,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PPFIA2",
+      "r_loso": 0.7238,
+      "self_confidence": 0.6839,
+      "stability": null,
+      "morans_i": 0.2682,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SMS",
+      "r_loso": 0.7236,
+      "self_confidence": 0.5561,
+      "stability": null,
+      "morans_i": 0.1526,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PTPRD",
+      "r_loso": 0.7215,
+      "self_confidence": 0.6445,
+      "stability": null,
+      "morans_i": 0.1611,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TFF3",
+      "r_loso": 0.7169,
+      "self_confidence": 0.5734,
+      "stability": null,
+      "morans_i": 0.211,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CAVIN1",
+      "r_loso": 0.7164,
+      "self_confidence": 0.573,
+      "stability": null,
+      "morans_i": 0.253,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MPC2",
+      "r_loso": 0.711,
+      "self_confidence": 0.6117,
+      "stability": null,
+      "morans_i": 0.1409,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MYLK",
+      "r_loso": 0.7089,
+      "self_confidence": 0.5101,
+      "stability": null,
+      "morans_i": 0.2316,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "COL6A2",
+      "r_loso": 0.7053,
+      "self_confidence": 0.5095,
+      "stability": null,
+      "morans_i": 0.232,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CAMKK2",
+      "r_loso": 0.7047,
+      "self_confidence": 0.5529,
+      "stability": null,
+      "morans_i": 0.1865,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NEFH",
+      "r_loso": 0.6954,
+      "self_confidence": 0.5178,
+      "stability": null,
+      "morans_i": 0.2564,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TPM1",
+      "r_loso": 0.6951,
+      "self_confidence": 0.5452,
+      "stability": null,
+      "morans_i": 0.2348,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TRPM8",
+      "r_loso": 0.6855,
+      "self_confidence": 0.5989,
+      "stability": null,
+      "morans_i": 0.113,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SMTN",
+      "r_loso": 0.6827,
+      "self_confidence": 0.5125,
+      "stability": null,
+      "morans_i": 0.2229,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FGFRL1",
+      "r_loso": 0.6771,
+      "self_confidence": 0.7786,
+      "stability": null,
+      "morans_i": 0.0715,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ACTB",
+      "r_loso": 0.6696,
+      "self_confidence": 0.6143,
+      "stability": null,
+      "morans_i": 0.2166,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "VEGFA",
+      "r_loso": 0.6628,
+      "self_confidence": 0.5399,
+      "stability": null,
+      "morans_i": 0.2341,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IGFBP7",
+      "r_loso": 0.6536,
+      "self_confidence": 0.5325,
+      "stability": null,
+      "morans_i": 0.1928,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SEC11C",
+      "r_loso": 0.6496,
+      "self_confidence": 0.4716,
+      "stability": null,
+      "morans_i": 0.1817,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LTBP4",
+      "r_loso": 0.6463,
+      "self_confidence": 0.6176,
+      "stability": null,
+      "morans_i": 0.2345,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IFITM3",
+      "r_loso": 0.6456,
+      "self_confidence": 0.5315,
+      "stability": null,
+      "morans_i": 0.3174,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PDLIM7",
+      "r_loso": 0.6451,
+      "self_confidence": 0.4504,
+      "stability": null,
+      "morans_i": 0.2084,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "RHOU",
+      "r_loso": 0.6411,
+      "self_confidence": 0.6042,
+      "stability": null,
+      "morans_i": 0.1164,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LBH",
+      "r_loso": 0.636,
+      "self_confidence": 0.6894,
+      "stability": null,
+      "morans_i": 0.0758,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SELENOM",
+      "r_loso": 0.6326,
+      "self_confidence": 0.4261,
+      "stability": null,
+      "morans_i": 0.2337,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SYNM",
+      "r_loso": 0.6325,
+      "self_confidence": 0.4795,
+      "stability": null,
+      "morans_i": 0.2345,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TMEFF2",
+      "r_loso": 0.6316,
+      "self_confidence": 0.6538,
+      "stability": null,
+      "morans_i": 0.1142,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "GSN",
+      "r_loso": 0.6307,
+      "self_confidence": 0.5556,
+      "stability": null,
+      "morans_i": 0.2166,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MGP",
+      "r_loso": 0.6297,
+      "self_confidence": 0.4339,
+      "stability": null,
+      "morans_i": 0.2897,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MON1B",
+      "r_loso": 0.6234,
+      "self_confidence": 0.6115,
+      "stability": null,
+      "morans_i": 0.1219,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SERPINA3",
+      "r_loso": 0.6208,
+      "self_confidence": 0.4324,
+      "stability": null,
+      "morans_i": 0.469,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MT1G",
+      "r_loso": 0.6153,
+      "self_confidence": 0.5013,
+      "stability": null,
+      "morans_i": 0.3093,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TIMP1",
+      "r_loso": 0.6147,
+      "self_confidence": 0.4272,
+      "stability": null,
+      "morans_i": 0.2136,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TMPRSS2",
+      "r_loso": 0.6139,
+      "self_confidence": 0.3985,
+      "stability": null,
+      "morans_i": 0.2101,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "AEBP1",
+      "r_loso": 0.6111,
+      "self_confidence": 0.4402,
+      "stability": null,
+      "morans_i": 0.2099,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "JUNB",
+      "r_loso": 0.6087,
+      "self_confidence": 0.677,
+      "stability": null,
+      "morans_i": 0.204,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "OR51E2",
+      "r_loso": 0.6019,
+      "self_confidence": 0.7154,
+      "stability": null,
+      "morans_i": 0.1241,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SYNPO2",
+      "r_loso": 0.5973,
+      "self_confidence": 0.3893,
+      "stability": null,
+      "morans_i": 0.1638,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TSPAN1",
+      "r_loso": 0.5954,
+      "self_confidence": 0.3835,
+      "stability": null,
+      "morans_i": 0.2027,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FOXA1",
+      "r_loso": 0.5942,
+      "self_confidence": 0.757,
+      "stability": null,
+      "morans_i": 0.0587,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CLU",
+      "r_loso": 0.5928,
+      "self_confidence": 0.4498,
+      "stability": null,
+      "morans_i": 0.2303,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NPY",
+      "r_loso": 0.5887,
+      "self_confidence": 0.4242,
+      "stability": null,
+      "morans_i": 0.3326,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "C1R",
+      "r_loso": 0.5879,
+      "self_confidence": 0.5191,
+      "stability": null,
+      "morans_i": 0.313,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TNFRSF19",
+      "r_loso": 0.5862,
+      "self_confidence": 0.5726,
+      "stability": null,
+      "morans_i": 0.1375,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LTF",
+      "r_loso": 0.5783,
+      "self_confidence": 0.4317,
+      "stability": null,
+      "morans_i": 0.4626,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "COL1A2",
+      "r_loso": 0.5741,
+      "self_confidence": 0.6287,
+      "stability": null,
+      "morans_i": 0.1822,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PPP3CA",
+      "r_loso": 0.5719,
+      "self_confidence": 0.3436,
+      "stability": null,
+      "morans_i": 0.1953,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MESP1",
+      "r_loso": 0.5691,
+      "self_confidence": 0.3768,
+      "stability": null,
+      "morans_i": 0.2467,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "RHOB",
+      "r_loso": 0.5659,
+      "self_confidence": 0.6108,
+      "stability": null,
+      "morans_i": 0.1859,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "DMXL1",
+      "r_loso": 0.5656,
+      "self_confidence": 0.527,
+      "stability": null,
+      "morans_i": 0.1098,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SOD2",
+      "r_loso": 0.5655,
+      "self_confidence": 0.5075,
+      "stability": null,
+      "morans_i": 0.3382,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CRISPLD2",
+      "r_loso": 0.5617,
+      "self_confidence": 0.4799,
+      "stability": null,
+      "morans_i": 0.2134,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MT2A",
+      "r_loso": 0.5614,
+      "self_confidence": 0.4439,
+      "stability": null,
+      "morans_i": 0.3537,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "GRHL2",
+      "r_loso": 0.5575,
+      "self_confidence": 0.6615,
+      "stability": null,
+      "morans_i": 0.0945,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CCN1",
+      "r_loso": 0.5528,
+      "self_confidence": 0.5845,
+      "stability": null,
+      "morans_i": 0.2417,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FOS",
+      "r_loso": 0.5502,
+      "self_confidence": 0.5639,
+      "stability": null,
+      "morans_i": 0.2071,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HSPG2",
+      "r_loso": 0.5423,
+      "self_confidence": 0.38,
+      "stability": null,
+      "morans_i": 0.1937,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HLA-E",
+      "r_loso": 0.5344,
+      "self_confidence": 0.4288,
+      "stability": null,
+      "morans_i": 0.2335,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CPLX3",
+      "r_loso": 0.5316,
+      "self_confidence": 0.4665,
+      "stability": null,
+      "morans_i": 0.2097,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "BTG2",
+      "r_loso": 0.5312,
+      "self_confidence": 0.5151,
+      "stability": null,
+      "morans_i": 0.203,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "VWA1",
+      "r_loso": 0.528,
+      "self_confidence": 0.3712,
+      "stability": null,
+      "morans_i": 0.214,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IGKC",
+      "r_loso": 0.524,
+      "self_confidence": 0.3657,
+      "stability": null,
+      "morans_i": 0.2368,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CEBPD",
+      "r_loso": 0.5202,
+      "self_confidence": 0.6096,
+      "stability": null,
+      "morans_i": 0.2413,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TACSTD2",
+      "r_loso": 0.5127,
+      "self_confidence": 0.5768,
+      "stability": null,
+      "morans_i": 0.079,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PALLD",
+      "r_loso": 0.5125,
+      "self_confidence": 0.5422,
+      "stability": null,
+      "morans_i": 0.2205,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IGFBP5",
+      "r_loso": 0.5089,
+      "self_confidence": 0.685,
+      "stability": null,
+      "morans_i": 0.1352,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IGHA1",
+      "r_loso": 0.5089,
+      "self_confidence": 0.3361,
+      "stability": null,
+      "morans_i": 0.2286,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MT1E",
+      "r_loso": 0.5073,
+      "self_confidence": 0.4109,
+      "stability": null,
+      "morans_i": 0.2553,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TRGC1",
+      "r_loso": 0.4968,
+      "self_confidence": 0.5791,
+      "stability": null,
+      "morans_i": 0.173,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TMSB4X",
+      "r_loso": 0.4949,
+      "self_confidence": 0.4805,
+      "stability": null,
+      "morans_i": 0.1155,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "UQCRB",
+      "r_loso": 0.4918,
+      "self_confidence": 0.5002,
+      "stability": null,
+      "morans_i": 0.1771,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NR4A1",
+      "r_loso": 0.4908,
+      "self_confidence": 0.4949,
+      "stability": null,
+      "morans_i": 0.1837,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CD74",
+      "r_loso": 0.4896,
+      "self_confidence": 0.3937,
+      "stability": null,
+      "morans_i": 0.2136,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ZFP36L2",
+      "r_loso": 0.4858,
+      "self_confidence": 0.4117,
+      "stability": null,
+      "morans_i": 0.2473,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MLPH",
+      "r_loso": 0.4827,
+      "self_confidence": 0.3945,
+      "stability": null,
+      "morans_i": 0.1749,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "DHRS7",
+      "r_loso": 0.4803,
+      "self_confidence": 0.3896,
+      "stability": null,
+      "morans_i": 0.1485,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "PMEPA1",
+      "r_loso": 0.4723,
+      "self_confidence": 0.4429,
+      "stability": null,
+      "morans_i": 0.1717,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "IFITM2",
+      "r_loso": 0.4718,
+      "self_confidence": 0.3872,
+      "stability": null,
+      "morans_i": 0.2645,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "KLK4",
+      "r_loso": 0.4648,
+      "self_confidence": 0.3691,
+      "stability": null,
+      "morans_i": 0.1912,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LTBP3",
+      "r_loso": 0.4645,
+      "self_confidence": 0.5272,
+      "stability": null,
+      "morans_i": 0.1762,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SLC45A3",
+      "r_loso": 0.4607,
+      "self_confidence": 0.528,
+      "stability": null,
+      "morans_i": 0.1569,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LGALS1",
+      "r_loso": 0.4595,
+      "self_confidence": 0.4506,
+      "stability": null,
+      "morans_i": 0.1492,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HSPA8",
+      "r_loso": 0.4568,
+      "self_confidence": 0.5624,
+      "stability": null,
+      "morans_i": 0.0787,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MT1X",
+      "r_loso": 0.4564,
+      "self_confidence": 0.3873,
+      "stability": null,
+      "morans_i": 0.281,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "COX5A",
+      "r_loso": 0.4537,
+      "self_confidence": 0.5553,
+      "stability": null,
+      "morans_i": 0.0815,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "EEF2",
+      "r_loso": 0.4495,
+      "self_confidence": 0.7079,
+      "stability": null,
+      "morans_i": 0.0656,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SPARC",
+      "r_loso": 0.4472,
+      "self_confidence": 0.5323,
+      "stability": null,
+      "morans_i": 0.1561,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NBL1",
+      "r_loso": 0.4458,
+      "self_confidence": 0.4097,
+      "stability": null,
+      "morans_i": 0.1706,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TGM2",
+      "r_loso": 0.4404,
+      "self_confidence": 0.4661,
+      "stability": null,
+      "morans_i": 0.2949,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "COL3A1",
+      "r_loso": 0.4285,
+      "self_confidence": 0.5151,
+      "stability": null,
+      "morans_i": 0.1748,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HINT1",
+      "r_loso": 0.41,
+      "self_confidence": 0.426,
+      "stability": null,
+      "morans_i": 0.1586,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FOSB",
+      "r_loso": 0.4087,
+      "self_confidence": 0.4191,
+      "stability": null,
+      "morans_i": 0.1828,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "GPX3",
+      "r_loso": 0.4041,
+      "self_confidence": 0.4642,
+      "stability": null,
+      "morans_i": 0.1384,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "UQCRQ",
+      "r_loso": 0.4029,
+      "self_confidence": 0.417,
+      "stability": null,
+      "morans_i": 0.1736,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NME2",
+      "r_loso": 0.4013,
+      "self_confidence": 0.4326,
+      "stability": null,
+      "morans_i": 0.1474,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HOXB13",
+      "r_loso": 0.4006,
+      "self_confidence": 0.443,
+      "stability": null,
+      "morans_i": 0.1175,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ANPEP",
+      "r_loso": 0.4004,
+      "self_confidence": 0.2927,
+      "stability": null,
+      "morans_i": 0.2352,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "RACK1",
+      "r_loso": 0.4,
+      "self_confidence": 0.5184,
+      "stability": null,
+      "morans_i": 0.1501,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "FASN",
+      "r_loso": 0.3981,
+      "self_confidence": 0.4769,
+      "stability": null,
+      "morans_i": 0.1298,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "EGR1",
+      "r_loso": 0.3934,
+      "self_confidence": 0.3889,
+      "stability": null,
+      "morans_i": 0.1825,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "C19orf48",
+      "r_loso": 0.3894,
+      "self_confidence": 0.3577,
+      "stability": null,
+      "morans_i": 0.1783,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "DDX5",
+      "r_loso": 0.3887,
+      "self_confidence": 0.4834,
+      "stability": null,
+      "morans_i": 0.1059,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "MYC",
+      "r_loso": 0.3865,
+      "self_confidence": 0.6812,
+      "stability": null,
+      "morans_i": 0.0988,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ITM2B",
+      "r_loso": 0.3842,
+      "self_confidence": 0.5807,
+      "stability": null,
+      "morans_i": 0.1401,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ALDH1A3",
+      "r_loso": 0.3831,
+      "self_confidence": 0.5951,
+      "stability": null,
+      "morans_i": 0.0837,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ARF1",
+      "r_loso": 0.379,
+      "self_confidence": 0.4037,
+      "stability": null,
+      "morans_i": 0.1123,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "CANT1",
+      "r_loso": 0.3756,
+      "self_confidence": 0.5301,
+      "stability": null,
+      "morans_i": 0.0874,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ATP5IF1",
+      "r_loso": 0.3749,
+      "self_confidence": 0.5675,
+      "stability": null,
+      "morans_i": 0.1034,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HNRNPA2B1",
+      "r_loso": 0.3703,
+      "self_confidence": 0.507,
+      "stability": null,
+      "morans_i": 0.0867,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "HMG20B",
+      "r_loso": 0.3696,
+      "self_confidence": 0.4376,
+      "stability": null,
+      "morans_i": 0.1055,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "GOLM1",
+      "r_loso": 0.3675,
+      "self_confidence": 0.6123,
+      "stability": null,
+      "morans_i": 0.086,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TMED10",
+      "r_loso": 0.3566,
+      "self_confidence": 0.4716,
+      "stability": null,
+      "morans_i": 0.0933,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "LRRC26",
+      "r_loso": 0.351,
+      "self_confidence": 0.5309,
+      "stability": null,
+      "morans_i": 0.1207,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SPDEF",
+      "r_loso": 0.351,
+      "self_confidence": 0.3625,
+      "stability": null,
+      "morans_i": 0.1897,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "GABARAPL2",
+      "r_loso": 0.3463,
+      "self_confidence": 0.5159,
+      "stability": null,
+      "morans_i": 0.0833,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "SRSF5",
+      "r_loso": 0.3448,
+      "self_confidence": 0.4773,
+      "stability": null,
+      "morans_i": 0.1022,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "BEX3",
+      "r_loso": 0.3142,
+      "self_confidence": 0.494,
+      "stability": null,
+      "morans_i": 0.1106,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "BTF3",
+      "r_loso": 0.3125,
+      "self_confidence": 0.6289,
+      "stability": null,
+      "morans_i": 0.156,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "EIF4B",
+      "r_loso": 0.3116,
+      "self_confidence": 0.66,
+      "stability": null,
+      "morans_i": 0.0757,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "TCP1",
+      "r_loso": 0.3057,
+      "self_confidence": 0.7187,
+      "stability": null,
+      "morans_i": 0.0631,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "USP22",
+      "r_loso": 0.3042,
+      "self_confidence": 0.6091,
+      "stability": null,
+      "morans_i": 0.0707,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "NTNG2",
+      "r_loso": 0.291,
+      "self_confidence": 0.5658,
+      "stability": null,
+      "morans_i": 0.1156,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ATP1A1",
+      "r_loso": 0.2786,
+      "self_confidence": 0.4207,
+      "stability": null,
+      "morans_i": 0.0917,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PPP2CB",
+      "r_loso": 0.2666,
+      "self_confidence": 0.6239,
+      "stability": null,
+      "morans_i": 0.1199,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ELOVL5",
+      "r_loso": 0.266,
+      "self_confidence": 0.5038,
+      "stability": null,
+      "morans_i": 0.1055,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "JUN",
+      "r_loso": 0.2575,
+      "self_confidence": 0.4465,
+      "stability": null,
+      "morans_i": 0.1246,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PFN1",
+      "r_loso": 0.2445,
+      "self_confidence": 0.4504,
+      "stability": null,
+      "morans_i": 0.1152,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PPDPF",
+      "r_loso": 0.244,
+      "self_confidence": 0.5816,
+      "stability": null,
+      "morans_i": 0.0985,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "C1orf115",
+      "r_loso": 0.2438,
+      "self_confidence": 0.6127,
+      "stability": null,
+      "morans_i": 0.0879,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "CNDP2",
+      "r_loso": 0.236,
+      "self_confidence": 0.5879,
+      "stability": null,
+      "morans_i": 0.0781,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "H3F3A",
+      "r_loso": 0.235,
+      "self_confidence": 0.5463,
+      "stability": null,
+      "morans_i": 0.1258,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "NDUFA4",
+      "r_loso": 0.2315,
+      "self_confidence": 0.5954,
+      "stability": null,
+      "morans_i": 0.1274,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PTGES3",
+      "r_loso": 0.2255,
+      "self_confidence": 0.4757,
+      "stability": null,
+      "morans_i": 0.0829,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ARGLU1",
+      "r_loso": 0.2255,
+      "self_confidence": 0.3939,
+      "stability": null,
+      "morans_i": 0.1044,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "FXYD3",
+      "r_loso": 0.2199,
+      "self_confidence": 0.3904,
+      "stability": null,
+      "morans_i": 0.1281,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "RERE",
+      "r_loso": 0.2192,
+      "self_confidence": 0.5536,
+      "stability": null,
+      "morans_i": 0.0699,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PTMA",
+      "r_loso": 0.213,
+      "self_confidence": 0.7111,
+      "stability": null,
+      "morans_i": 0.1023,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "EEF1D",
+      "r_loso": 0.2123,
+      "self_confidence": 0.7304,
+      "stability": null,
+      "morans_i": 0.103,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "HSPA5",
+      "r_loso": 0.212,
+      "self_confidence": 0.6851,
+      "stability": null,
+      "morans_i": 0.0692,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "WDR6",
+      "r_loso": 0.209,
+      "self_confidence": 0.5241,
+      "stability": null,
+      "morans_i": 0.092,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "HNRNPK",
+      "r_loso": 0.1968,
+      "self_confidence": 0.4682,
+      "stability": null,
+      "morans_i": 0.1217,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "SQSTM1",
+      "r_loso": 0.1953,
+      "self_confidence": 0.6084,
+      "stability": null,
+      "morans_i": 0.1016,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "LRP10",
+      "r_loso": 0.192,
+      "self_confidence": 0.6313,
+      "stability": null,
+      "morans_i": 0.1033,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "SNRNP70",
+      "r_loso": 0.1918,
+      "self_confidence": 0.438,
+      "stability": null,
+      "morans_i": 0.0953,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PPIB",
+      "r_loso": 0.1916,
+      "self_confidence": 0.6098,
+      "stability": null,
+      "morans_i": 0.0906,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "CDYL2",
+      "r_loso": 0.189,
+      "self_confidence": 0.647,
+      "stability": null,
+      "morans_i": 0.0709,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "XBP1",
+      "r_loso": 0.1884,
+      "self_confidence": 0.4948,
+      "stability": null,
+      "morans_i": 0.0899,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "NUCB1",
+      "r_loso": 0.1862,
+      "self_confidence": 0.4975,
+      "stability": null,
+      "morans_i": 0.12,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "SRSF1",
+      "r_loso": 0.185,
+      "self_confidence": 0.6115,
+      "stability": null,
+      "morans_i": 0.0722,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "BCAM",
+      "r_loso": 0.1848,
+      "self_confidence": 0.7325,
+      "stability": null,
+      "morans_i": 0.0931,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PTMS",
+      "r_loso": 0.1846,
+      "self_confidence": 0.713,
+      "stability": null,
+      "morans_i": 0.0852,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "TMBIM6",
+      "r_loso": 0.179,
+      "self_confidence": 0.708,
+      "stability": null,
+      "morans_i": 0.085,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "KIAA1522",
+      "r_loso": 0.1762,
+      "self_confidence": 0.6133,
+      "stability": null,
+      "morans_i": 0.077,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "GNB1",
+      "r_loso": 0.1698,
+      "self_confidence": 0.5489,
+      "stability": null,
+      "morans_i": 0.0767,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "NFIX",
+      "r_loso": 0.1692,
+      "self_confidence": 0.5794,
+      "stability": null,
+      "morans_i": 0.1098,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "SPINT2",
+      "r_loso": 0.1519,
+      "self_confidence": 0.4834,
+      "stability": null,
+      "morans_i": 0.0958,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "PDIA3",
+      "r_loso": 0.1498,
+      "self_confidence": 0.5488,
+      "stability": null,
+      "morans_i": 0.1116,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ATN1",
+      "r_loso": 0.1482,
+      "self_confidence": 0.6221,
+      "stability": null,
+      "morans_i": 0.0941,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "FTH1",
+      "r_loso": 0.1479,
+      "self_confidence": 0.6004,
+      "stability": null,
+      "morans_i": 0.1012,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "SSR1",
+      "r_loso": 0.1478,
+      "self_confidence": 0.6157,
+      "stability": null,
+      "morans_i": 0.0755,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "NCL",
+      "r_loso": 0.1465,
+      "self_confidence": 0.5208,
+      "stability": null,
+      "morans_i": 0.0948,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "DSTN",
+      "r_loso": 0.146,
+      "self_confidence": 0.507,
+      "stability": null,
+      "morans_i": 0.097,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "PLXNB2",
+      "r_loso": 0.1448,
+      "self_confidence": 0.4864,
+      "stability": null,
+      "morans_i": 0.1057,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "EIF4H",
+      "r_loso": 0.1399,
+      "self_confidence": 0.6454,
+      "stability": null,
+      "morans_i": 0.0758,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "GOLPH3",
+      "r_loso": 0.1389,
+      "self_confidence": 0.5951,
+      "stability": null,
+      "morans_i": 0.0717,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "SEPTIN2",
+      "r_loso": 0.128,
+      "self_confidence": 0.5899,
+      "stability": null,
+      "morans_i": 0.0816,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ATXN7L3B",
+      "r_loso": 0.1219,
+      "self_confidence": 0.6281,
+      "stability": null,
+      "morans_i": 0.0758,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "NOP53",
+      "r_loso": 0.1201,
+      "self_confidence": 0.6024,
+      "stability": null,
+      "morans_i": 0.0864,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "EIF4G1",
+      "r_loso": 0.1198,
+      "self_confidence": 0.5411,
+      "stability": null,
+      "morans_i": 0.0905,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "PCBP1",
+      "r_loso": 0.1144,
+      "self_confidence": 0.5425,
+      "stability": null,
+      "morans_i": 0.0861,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ALOX15B",
+      "r_loso": 0.1028,
+      "self_confidence": 0.458,
+      "stability": null,
+      "morans_i": 0.128,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "CTBP1",
+      "r_loso": 0.0919,
+      "self_confidence": 0.5617,
+      "stability": null,
+      "morans_i": 0.0746,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "EID1",
+      "r_loso": 0.081,
+      "self_confidence": 0.533,
+      "stability": null,
+      "morans_i": 0.0762,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "SLC44A4",
+      "r_loso": 0.0791,
+      "self_confidence": 0.4189,
+      "stability": null,
+      "morans_i": 0.1128,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "G3BP2",
+      "r_loso": 0.0716,
+      "self_confidence": 0.571,
+      "stability": null,
+      "morans_i": 0.0768,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "HNRNPUL1",
+      "r_loso": 0.0602,
+      "self_confidence": 0.7202,
+      "stability": null,
+      "morans_i": 0.0824,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "EIF3A",
+      "r_loso": 0.058,
+      "self_confidence": 0.502,
+      "stability": null,
+      "morans_i": 0.0816,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "PRRC2A",
+      "r_loso": 0.0531,
+      "self_confidence": 0.541,
+      "stability": null,
+      "morans_i": 0.0852,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "HIST1H1E",
+      "r_loso": 0.052,
+      "self_confidence": 0.7522,
+      "stability": null,
+      "morans_i": 0.0756,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "NFIB",
+      "r_loso": 0.0399,
+      "self_confidence": 0.5374,
+      "stability": null,
+      "morans_i": 0.0836,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "RTN4",
+      "r_loso": 0.0389,
+      "self_confidence": 0.6335,
+      "stability": null,
+      "morans_i": 0.081,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "HNRNPA0",
+      "r_loso": 0.0277,
+      "self_confidence": 0.6174,
+      "stability": null,
+      "morans_i": 0.0774,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "KHDRBS1",
+      "r_loso": 0.0072,
+      "self_confidence": 0.6073,
+      "stability": null,
+      "morans_i": 0.0821,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "TAF15",
+      "r_loso": 0.0062,
+      "self_confidence": 0.6557,
+      "stability": null,
+      "morans_i": 0.0767,
+      "verdict": "not_learnable"
+    }
+  ]
+}

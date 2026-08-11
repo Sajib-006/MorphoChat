@@ -1,0 +1,2017 @@
+{
+  "organ": "Heart",
+  "encoder": "virchow2",
+  "n_slides": 4,
+  "n_studies": 1,
+  "n_genes": 200,
+  "n_spots": 7711,
+  "n_permutations": 100,
+  "alpha": 0.05,
+  "block_size": 5,
+  "fold_type": "slide",
+  "n_learnable_fdr": 177,
+  "mean_observed_r": 0.1442,
+  "mean_null_r": -0.0001,
+  "genes": [
+    {
+      "gene": "ENSG00000106631",
+      "observed_r": 0.0842,
+      "null_mean": 0.0019,
+      "null_std": 0.0263,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.13,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197616",
+      "observed_r": 0.1362,
+      "null_mean": -0.0019,
+      "null_std": 0.0256,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.4,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198336",
+      "observed_r": 0.0895,
+      "null_mean": -0.0017,
+      "null_std": 0.0265,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.44,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000143632",
+      "observed_r": 0.1077,
+      "null_mean": 0.0005,
+      "null_std": 0.0243,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.4,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000107796",
+      "observed_r": 0.1238,
+      "null_mean": -0.0014,
+      "null_std": 0.0241,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.2,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000125148",
+      "observed_r": 0.2104,
+      "null_mean": 0.0013,
+      "null_std": 0.0228,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.19,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000188257",
+      "observed_r": 0.3563,
+      "null_mean": -0.0007,
+      "null_std": 0.0197,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 18.17,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000148677",
+      "observed_r": 0.1916,
+      "null_mean": -0.005,
+      "null_std": 0.0243,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.07,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000050165",
+      "observed_r": 0.1951,
+      "null_mean": -0.0002,
+      "null_std": 0.0225,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.69,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000077942",
+      "observed_r": 0.4039,
+      "null_mean": -0.0034,
+      "null_std": 0.0209,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 19.49,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000187479",
+      "observed_r": 0.3446,
+      "null_mean": -0.0001,
+      "null_std": 0.0223,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 15.42,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000112936",
+      "observed_r": 0.2895,
+      "null_mean": 0.0042,
+      "null_std": 0.0206,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 13.85,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000111341",
+      "observed_r": 0.4795,
+      "null_mean": -0.0032,
+      "null_std": 0.0195,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 24.77,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000145730",
+      "observed_r": 0.1272,
+      "null_mean": -0.0037,
+      "null_std": 0.0271,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.82,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000115641",
+      "observed_r": 0.0793,
+      "null_mean": -0.0015,
+      "null_std": 0.0231,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.51,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000125730",
+      "observed_r": 0.3158,
+      "null_mean": -0.0016,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.57,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000087086",
+      "observed_r": 0.4659,
+      "null_mean": 0.0011,
+      "null_std": 0.0197,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 23.56,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197766",
+      "observed_r": 0.3613,
+      "null_mean": -0.0011,
+      "null_std": 0.017,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 21.27,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000149591",
+      "observed_r": 0.3512,
+      "null_mean": -0.0017,
+      "null_std": 0.0214,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.52,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000123358",
+      "observed_r": 0.1237,
+      "null_mean": 0.0011,
+      "null_std": 0.0182,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.74,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000129538",
+      "observed_r": 0.3415,
+      "null_mean": -0.0001,
+      "null_std": 0.0204,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.78,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000189058",
+      "observed_r": 0.188,
+      "null_mean": -0.0012,
+      "null_std": 0.0214,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.83,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000026025",
+      "observed_r": 0.3752,
+      "null_mean": 0.0,
+      "null_std": 0.02,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 18.78,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000102265",
+      "observed_r": 0.3738,
+      "null_mean": -0.002,
+      "null_std": 0.0202,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 18.61,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000159403",
+      "observed_r": 0.3319,
+      "null_mean": 0.0013,
+      "null_std": 0.02,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.52,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000128016",
+      "observed_r": 0.1568,
+      "null_mean": 0.0029,
+      "null_std": 0.022,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.0,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000100234",
+      "observed_r": 0.1053,
+      "null_mean": 0.0002,
+      "null_std": 0.0202,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.2,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000141753",
+      "observed_r": 0.3336,
+      "null_mean": 0.0022,
+      "null_std": 0.019,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 17.43,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000221869",
+      "observed_r": 0.1588,
+      "null_mean": 0.001,
+      "null_std": 0.0226,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.99,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000126709",
+      "observed_r": 0.2183,
+      "null_mean": 0.0017,
+      "null_std": 0.0219,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.91,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000171223",
+      "observed_r": 0.2281,
+      "null_mean": -0.0014,
+      "null_std": 0.0207,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.08,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000170290",
+      "observed_r": 0.0737,
+      "null_mean": -0.002,
+      "null_std": 0.0234,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.24,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000156508",
+      "observed_r": 0.3195,
+      "null_mean": 0.0015,
+      "null_std": 0.0223,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 14.29,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000166592",
+      "observed_r": 0.0497,
+      "null_mean": 0.002,
+      "null_std": 0.0205,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.32,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000011465",
+      "observed_r": 0.4251,
+      "null_mean": 0.0012,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 21.93,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000204389",
+      "observed_r": 0.1041,
+      "null_mean": -0.0023,
+      "null_std": 0.0229,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.65,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000115461",
+      "observed_r": 0.108,
+      "null_mean": -0.0006,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.67,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000019582",
+      "observed_r": 0.2659,
+      "null_mean": 0.0034,
+      "null_std": 0.0187,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 14.01,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000130066",
+      "observed_r": 0.1288,
+      "null_mean": -0.0015,
+      "null_std": 0.0227,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.73,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000120129",
+      "observed_r": 0.1963,
+      "null_mean": 0.0025,
+      "null_std": 0.0224,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.66,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000173372",
+      "observed_r": 0.2736,
+      "null_mean": 0.0002,
+      "null_std": 0.0199,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 13.72,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000131730",
+      "observed_r": 0.2065,
+      "null_mean": -0.0004,
+      "null_std": 0.0233,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.89,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000004776",
+      "observed_r": 0.0804,
+      "null_mean": 0.0013,
+      "null_std": 0.0178,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.46,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000135218",
+      "observed_r": 0.1782,
+      "null_mean": 0.0008,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.23,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000120885",
+      "observed_r": 0.3774,
+      "null_mean": 0.003,
+      "null_std": 0.0221,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.95,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000173369",
+      "observed_r": 0.2444,
+      "null_mean": 0.0046,
+      "null_std": 0.019,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 12.6,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000100316",
+      "observed_r": 0.215,
+      "null_mean": 0.0011,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.15,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000149131",
+      "observed_r": 0.2413,
+      "null_mean": -0.0031,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 13.21,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000148671",
+      "observed_r": 0.2803,
+      "null_mean": 0.0018,
+      "null_std": 0.0169,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.48,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000115414",
+      "observed_r": 0.2127,
+      "null_mean": -0.0025,
+      "null_std": 0.0177,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 12.15,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000108515",
+      "observed_r": 0.0542,
+      "null_mean": -0.002,
+      "null_std": 0.0189,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.98,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000130522",
+      "observed_r": 0.1423,
+      "null_mean": -0.0001,
+      "null_std": 0.0214,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.65,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000148180",
+      "observed_r": 0.358,
+      "null_mean": -0.0015,
+      "null_std": 0.019,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 18.94,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000159388",
+      "observed_r": 0.1219,
+      "null_mean": -0.0023,
+      "null_std": 0.0199,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.24,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000106991",
+      "observed_r": 0.1016,
+      "null_mean": -0.0025,
+      "null_std": 0.0202,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.15,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000250722",
+      "observed_r": 0.2225,
+      "null_mean": -0.0025,
+      "null_std": 0.0205,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.96,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000077009",
+      "observed_r": 0.1358,
+      "null_mean": 0.0004,
+      "null_std": 0.0227,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.96,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000182492",
+      "observed_r": 0.2094,
+      "null_mean": -0.0021,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.45,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000184009",
+      "observed_r": 0.1424,
+      "null_mean": -0.001,
+      "null_std": 0.0218,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.57,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000022267",
+      "observed_r": 0.0791,
+      "null_mean": 0.0006,
+      "null_std": 0.0199,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.95,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000182326",
+      "observed_r": 0.2088,
+      "null_mean": -0.0009,
+      "null_std": 0.0187,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.21,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000092841",
+      "observed_r": 0.2126,
+      "null_mean": -0.001,
+      "null_std": 0.0217,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.83,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000099860",
+      "observed_r": 0.1253,
+      "null_mean": -0.0007,
+      "null_std": 0.0198,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.35,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000245532",
+      "observed_r": 0.1263,
+      "null_mean": -0.0023,
+      "null_std": 0.0204,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.28,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000139329",
+      "observed_r": 0.2579,
+      "null_mean": 0.0042,
+      "null_std": 0.0184,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 13.77,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000110799",
+      "observed_r": 0.0614,
+      "null_mean": -0.0017,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.41,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000142173",
+      "observed_r": 0.2174,
+      "null_mean": 0.0009,
+      "null_std": 0.018,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 12.02,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000106211",
+      "observed_r": 0.0826,
+      "null_mean": 0.0011,
+      "null_std": 0.0224,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.63,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000228253",
+      "observed_r": 0.179,
+      "null_mean": 0.0017,
+      "null_std": 0.0168,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.54,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000196924",
+      "observed_r": 0.2739,
+      "null_mean": -0.0004,
+      "null_std": 0.0179,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 15.28,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000185201",
+      "observed_r": 0.178,
+      "null_mean": 0.0013,
+      "null_std": 0.0171,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.31,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000240583",
+      "observed_r": 0.1051,
+      "null_mean": -0.0002,
+      "null_std": 0.0154,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.84,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000120937",
+      "observed_r": 0.1173,
+      "null_mean": -0.0017,
+      "null_std": 0.023,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.17,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000196126",
+      "observed_r": 0.1367,
+      "null_mean": 0.0005,
+      "null_std": 0.0186,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.34,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000080824",
+      "observed_r": 0.0508,
+      "null_mean": -0.0015,
+      "null_std": 0.0214,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.45,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000164687",
+      "observed_r": 0.1778,
+      "null_mean": -0.0007,
+      "null_std": 0.0167,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.7,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000204287",
+      "observed_r": 0.1776,
+      "null_mean": 0.0015,
+      "null_std": 0.0179,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.85,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000143878",
+      "observed_r": 0.0926,
+      "null_mean": 0.0011,
+      "null_std": 0.0204,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.48,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000187514",
+      "observed_r": 0.1805,
+      "null_mean": 0.0008,
+      "null_std": 0.0158,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.39,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197893",
+      "observed_r": 0.0649,
+      "null_mean": 0.0031,
+      "null_std": 0.0205,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.01,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000204592",
+      "observed_r": 0.1684,
+      "null_mean": -0.0016,
+      "null_std": 0.0194,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.76,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000164692",
+      "observed_r": 0.1689,
+      "null_mean": -0.0021,
+      "null_std": 0.0173,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.86,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000072778",
+      "observed_r": 0.0672,
+      "null_mean": -0.0023,
+      "null_std": 0.0208,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.33,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000132386",
+      "observed_r": 0.2576,
+      "null_mean": 0.0019,
+      "null_std": 0.0166,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 15.37,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000152583",
+      "observed_r": 0.1695,
+      "null_mean": 0.0002,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.77,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000000971",
+      "observed_r": 0.2192,
+      "null_mean": 0.0033,
+      "null_std": 0.0206,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.5,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000130770",
+      "observed_r": 0.0805,
+      "null_mean": 0.0017,
+      "null_std": 0.0175,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.5,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000205364",
+      "observed_r": 0.1637,
+      "null_mean": -0.0019,
+      "null_std": 0.0252,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.57,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000118729",
+      "observed_r": 0.1801,
+      "null_mean": -0.0004,
+      "null_std": 0.0178,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.14,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198626",
+      "observed_r": 0.1197,
+      "null_mean": 0.0014,
+      "null_std": 0.0194,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.1,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000188783",
+      "observed_r": 0.3112,
+      "null_mean": 0.0049,
+      "null_std": 0.021,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 14.61,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197956",
+      "observed_r": 0.3465,
+      "null_mean": 0.0007,
+      "null_std": 0.017,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 20.3,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000196154",
+      "observed_r": 0.2126,
+      "null_mean": -0.0013,
+      "null_std": 0.0187,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.46,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000101608",
+      "observed_r": 0.0735,
+      "null_mean": -0.0013,
+      "null_std": 0.0206,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.63,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000165949",
+      "observed_r": 0.1545,
+      "null_mean": -0.0021,
+      "null_std": 0.0181,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.66,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000010256",
+      "observed_r": 0.0696,
+      "null_mean": -0.0006,
+      "null_std": 0.0176,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.99,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000142089",
+      "observed_r": 0.2997,
+      "null_mean": -0.0053,
+      "null_std": 0.0203,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 14.99,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000140545",
+      "observed_r": 0.0625,
+      "null_mean": 0.0008,
+      "null_std": 0.0197,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.13,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000196616",
+      "observed_r": 0.1545,
+      "null_mean": 0.0031,
+      "null_std": 0.0203,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.47,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000078114",
+      "observed_r": 0.175,
+      "null_mean": 0.0026,
+      "null_std": 0.0217,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.93,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000166598",
+      "observed_r": 0.0636,
+      "null_mean": -0.0005,
+      "null_std": 0.0168,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.82,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000113140",
+      "observed_r": 0.0805,
+      "null_mean": 0.0021,
+      "null_std": 0.0159,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.93,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197728",
+      "observed_r": 0.0697,
+      "null_mean": -0.0009,
+      "null_std": 0.0179,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.94,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000163110",
+      "observed_r": 0.1813,
+      "null_mean": -0.0004,
+      "null_std": 0.0168,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.79,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000132475",
+      "observed_r": 0.1083,
+      "null_mean": 0.0014,
+      "null_std": 0.0177,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.03,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198467",
+      "observed_r": 0.1105,
+      "null_mean": -0.0027,
+      "null_std": 0.0177,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.39,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000036448",
+      "observed_r": 0.1427,
+      "null_mean": -0.0008,
+      "null_std": 0.0194,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.39,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000075624",
+      "observed_r": 0.3349,
+      "null_mean": 0.0015,
+      "null_std": 0.0203,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.41,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000206503",
+      "observed_r": 0.1667,
+      "null_mean": 0.0006,
+      "null_std": 0.0157,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.55,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000205678",
+      "observed_r": 0.1,
+      "null_mean": 0.003,
+      "null_std": 0.0181,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.35,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000170345",
+      "observed_r": 0.1833,
+      "null_mean": -0.0001,
+      "null_std": 0.0216,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.48,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000130528",
+      "observed_r": 0.1333,
+      "null_mean": 0.0039,
+      "null_std": 0.0179,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.23,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000251562",
+      "observed_r": 0.1065,
+      "null_mean": -0.0012,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.6,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000135821",
+      "observed_r": 0.1892,
+      "null_mean": -0.0007,
+      "null_std": 0.0186,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.18,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197747",
+      "observed_r": 0.1034,
+      "null_mean": 0.0007,
+      "null_std": 0.0188,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.46,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000188229",
+      "observed_r": 0.0568,
+      "null_mean": 0.0001,
+      "null_std": 0.0212,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.67,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000102804",
+      "observed_r": 0.0597,
+      "null_mean": -0.002,
+      "null_std": 0.0182,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.38,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000104823",
+      "observed_r": 0.0672,
+      "null_mean": 0.0,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.64,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000142156",
+      "observed_r": 0.1362,
+      "null_mean": 0.0005,
+      "null_std": 0.0162,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.38,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000124614",
+      "observed_r": 0.0689,
+      "null_mean": 0.0006,
+      "null_std": 0.0168,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.07,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000182718",
+      "observed_r": 0.1654,
+      "null_mean": 0.0,
+      "null_std": 0.0179,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.24,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000175899",
+      "observed_r": 0.1542,
+      "null_mean": -0.0013,
+      "null_std": 0.0162,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.59,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198755",
+      "observed_r": 0.1367,
+      "null_mean": 0.0002,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.06,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000172757",
+      "observed_r": 0.1264,
+      "null_mean": 0.0029,
+      "null_std": 0.0178,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.93,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000163191",
+      "observed_r": 0.181,
+      "null_mean": 0.0004,
+      "null_std": 0.0203,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.91,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000137801",
+      "observed_r": 0.068,
+      "null_mean": 0.0031,
+      "null_std": 0.02,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.25,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000161970",
+      "observed_r": 0.0774,
+      "null_mean": -0.0044,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.25,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000197958",
+      "observed_r": 0.1368,
+      "null_mean": -0.0023,
+      "null_std": 0.0171,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.14,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000263155",
+      "observed_r": 0.0834,
+      "null_mean": 0.0,
+      "null_std": 0.0167,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.0,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000108679",
+      "observed_r": 0.0584,
+      "null_mean": 0.0012,
+      "null_std": 0.0152,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.75,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000035862",
+      "observed_r": 0.1265,
+      "null_mean": 0.0014,
+      "null_std": 0.02,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.25,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000189129",
+      "observed_r": 0.2354,
+      "null_mean": 0.0026,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 12.15,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000166165",
+      "observed_r": 0.0462,
+      "null_mean": 0.0004,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.37,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000138029",
+      "observed_r": 0.1289,
+      "null_mean": 0.0013,
+      "null_std": 0.0208,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.13,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000179218",
+      "observed_r": 0.1088,
+      "null_mean": -0.0007,
+      "null_std": 0.02,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.49,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000090006",
+      "observed_r": 0.1683,
+      "null_mean": -0.0018,
+      "null_std": 0.0183,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.32,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000125968",
+      "observed_r": 0.1287,
+      "null_mean": 0.0025,
+      "null_std": 0.0202,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.24,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000152556",
+      "observed_r": 0.0545,
+      "null_mean": -0.0009,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 2.89,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000143248",
+      "observed_r": 0.1575,
+      "null_mean": -0.0018,
+      "null_std": 0.0168,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.46,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000147684",
+      "observed_r": 0.105,
+      "null_mean": -0.0005,
+      "null_std": 0.0172,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.13,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000172037",
+      "observed_r": 0.0549,
+      "null_mean": -0.001,
+      "null_std": 0.0184,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.05,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000170801",
+      "observed_r": 0.1872,
+      "null_mean": -0.0037,
+      "null_std": 0.018,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.59,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000164309",
+      "observed_r": 0.1047,
+      "null_mean": 0.0022,
+      "null_std": 0.0194,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.28,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000196262",
+      "observed_r": 0.1001,
+      "null_mean": -0.0015,
+      "null_std": 0.0172,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.9,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000077157",
+      "observed_r": 0.1345,
+      "null_mean": -0.002,
+      "null_std": 0.0181,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.54,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000167779",
+      "observed_r": 0.3034,
+      "null_mean": 0.0023,
+      "null_std": 0.0178,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 16.9,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000104763",
+      "observed_r": 0.0868,
+      "null_mean": 0.0007,
+      "null_std": 0.0182,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.72,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000156463",
+      "observed_r": 0.0719,
+      "null_mean": -0.0013,
+      "null_std": 0.019,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.85,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000116251",
+      "observed_r": 0.0679,
+      "null_mean": -0.0002,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.68,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000121577",
+      "observed_r": 0.0994,
+      "null_mean": -0.0028,
+      "null_std": 0.0178,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.74,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000073578",
+      "observed_r": 0.0638,
+      "null_mean": 0.0028,
+      "null_std": 0.0198,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.08,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000123384",
+      "observed_r": 0.1376,
+      "null_mean": 0.0035,
+      "null_std": 0.0185,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.26,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000205542",
+      "observed_r": 0.2426,
+      "null_mean": 0.0025,
+      "null_std": 0.0173,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 13.88,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000179091",
+      "observed_r": 0.0638,
+      "null_mean": -0.0004,
+      "null_std": 0.018,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.57,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000178741",
+      "observed_r": 0.0674,
+      "null_mean": -0.0009,
+      "null_std": 0.0202,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.39,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000120053",
+      "observed_r": 0.1159,
+      "null_mean": 0.0028,
+      "null_std": 0.0192,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.88,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000100412",
+      "observed_r": 0.0942,
+      "null_mean": -0.0021,
+      "null_std": 0.0184,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.24,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000002586",
+      "observed_r": 0.0979,
+      "null_mean": -0.0016,
+      "null_std": 0.0201,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.96,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000004779",
+      "observed_r": 0.1667,
+      "null_mean": -0.0002,
+      "null_std": 0.0186,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 8.97,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000140990",
+      "observed_r": 0.0706,
+      "null_mean": -0.0047,
+      "null_std": 0.0169,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.46,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000170807",
+      "observed_r": 0.1549,
+      "null_mean": 0.0015,
+      "null_std": 0.0198,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 7.75,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000158710",
+      "observed_r": 0.1697,
+      "null_mean": -0.0027,
+      "null_std": 0.0184,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 9.37,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000130255",
+      "observed_r": 0.1642,
+      "null_mean": 0.0025,
+      "null_std": 0.015,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 10.76,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000087245",
+      "observed_r": 0.2064,
+      "null_mean": -0.003,
+      "null_std": 0.0188,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 11.12,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000083845",
+      "observed_r": 0.0731,
+      "null_mean": -0.0014,
+      "null_std": 0.0169,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.41,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000108654",
+      "observed_r": 0.1122,
+      "null_mean": -0.0018,
+      "null_std": 0.0167,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 6.82,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000164708",
+      "observed_r": 0.0799,
+      "null_mean": -0.0018,
+      "null_std": 0.0167,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.89,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198034",
+      "observed_r": 0.0663,
+      "null_mean": -0.0003,
+      "null_std": 0.018,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 3.7,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000165629",
+      "observed_r": 0.0861,
+      "null_mean": -0.0004,
+      "null_std": 0.0172,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.03,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000168028",
+      "observed_r": 0.0887,
+      "null_mean": -0.0014,
+      "null_std": 0.0174,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.16,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000077522",
+      "observed_r": 0.0808,
+      "null_mean": 0.0012,
+      "null_std": 0.0193,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 4.14,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000108518",
+      "observed_r": 0.1006,
+      "null_mean": -0.0016,
+      "null_std": 0.0191,
+      "p_value": 0.009901,
+      "q_value": 0.011513,
+      "effect_size": 5.34,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000109610",
+      "observed_r": 0.0535,
+      "null_mean": -0.0017,
+      "null_std": 0.0245,
+      "p_value": 0.019802,
+      "q_value": 0.022502,
+      "effect_size": 2.25,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000125868",
+      "observed_r": 0.0387,
+      "null_mean": -0.0018,
+      "null_std": 0.0202,
+      "p_value": 0.019802,
+      "q_value": 0.022502,
+      "effect_size": 2.01,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000134333",
+      "observed_r": 0.0316,
+      "null_mean": -0.0025,
+      "null_std": 0.0159,
+      "p_value": 0.019802,
+      "q_value": 0.022502,
+      "effect_size": 2.14,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000090266",
+      "observed_r": 0.0447,
+      "null_mean": -0.0027,
+      "null_std": 0.017,
+      "p_value": 0.019802,
+      "q_value": 0.022502,
+      "effect_size": 2.79,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000198959",
+      "observed_r": 0.0318,
+      "null_mean": -0.0009,
+      "null_std": 0.019,
+      "p_value": 0.029703,
+      "q_value": 0.033563,
+      "effect_size": 1.72,
+      "learnable": true
+    },
+    {
+      "gene": "ENSG00000175206",
+      "observed_r": 0.0608,
+      "null_mean": 0.0042,
+      "null_std": 0.0273,
+      "p_value": 0.049505,
+      "q_value": 0.055313,
+      "effect_size": 2.07,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000187193",
+      "observed_r": 0.0347,
+      "null_mean": -0.0013,
+      "null_std": 0.0203,
+      "p_value": 0.049505,
+      "q_value": 0.055313,
+      "effect_size": 1.77,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000100243",
+      "observed_r": 0.0241,
+      "null_mean": 0.0019,
+      "null_std": 0.0165,
+      "p_value": 0.079208,
+      "q_value": 0.088009,
+      "effect_size": 1.35,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000169715",
+      "observed_r": 0.0297,
+      "null_mean": 0.0007,
+      "null_std": 0.0213,
+      "p_value": 0.128713,
+      "q_value": 0.141443,
+      "effect_size": 1.36,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000168334",
+      "observed_r": 0.0225,
+      "null_mean": 0.0001,
+      "null_std": 0.0172,
+      "p_value": 0.128713,
+      "q_value": 0.141443,
+      "effect_size": 1.31,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000128591",
+      "observed_r": 0.0229,
+      "null_mean": 0.0002,
+      "null_std": 0.0214,
+      "p_value": 0.148515,
+      "q_value": 0.162311,
+      "effect_size": 1.06,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000182054",
+      "observed_r": 0.0187,
+      "null_mean": 0.0002,
+      "null_std": 0.0188,
+      "p_value": 0.168317,
+      "q_value": 0.182953,
+      "effect_size": 0.98,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000175445",
+      "observed_r": 0.0175,
+      "null_mean": -0.0009,
+      "null_std": 0.0221,
+      "p_value": 0.188119,
+      "q_value": 0.201197,
+      "effect_size": 0.83,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000173598",
+      "observed_r": 0.0158,
+      "null_mean": -0.0005,
+      "null_std": 0.017,
+      "p_value": 0.188119,
+      "q_value": 0.201197,
+      "effect_size": 0.96,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000182154",
+      "observed_r": 0.0188,
+      "null_mean": 0.0016,
+      "null_std": 0.0188,
+      "p_value": 0.188119,
+      "q_value": 0.201197,
+      "effect_size": 0.92,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000204388",
+      "observed_r": 0.0156,
+      "null_mean": 0.0017,
+      "null_std": 0.018,
+      "p_value": 0.207921,
+      "q_value": 0.221192,
+      "effect_size": 0.77,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000092054",
+      "observed_r": 0.02,
+      "null_mean": -0.0,
+      "null_std": 0.0269,
+      "p_value": 0.217822,
+      "q_value": 0.228086,
+      "effect_size": 0.74,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000244734",
+      "observed_r": 0.015,
+      "null_mean": -0.0026,
+      "null_std": 0.0209,
+      "p_value": 0.217822,
+      "q_value": 0.228086,
+      "effect_size": 0.84,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000143198",
+      "observed_r": 0.0185,
+      "null_mean": 0.0003,
+      "null_std": 0.0196,
+      "p_value": 0.217822,
+      "q_value": 0.228086,
+      "effect_size": 0.93,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000004799",
+      "observed_r": 0.0188,
+      "null_mean": 0.0015,
+      "null_std": 0.0232,
+      "p_value": 0.237624,
+      "q_value": 0.247525,
+      "effect_size": 0.75,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000265972",
+      "observed_r": 0.0105,
+      "null_mean": -0.0005,
+      "null_std": 0.0177,
+      "p_value": 0.257426,
+      "q_value": 0.266762,
+      "effect_size": 0.62,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000160808",
+      "observed_r": 0.0103,
+      "null_mean": -0.0031,
+      "null_std": 0.0273,
+      "p_value": 0.267327,
+      "q_value": 0.274181,
+      "effect_size": 0.49,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000182534",
+      "observed_r": 0.009,
+      "null_mean": -0.0022,
+      "null_std": 0.0171,
+      "p_value": 0.267327,
+      "q_value": 0.274181,
+      "effect_size": 0.66,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000117450",
+      "observed_r": 0.0108,
+      "null_mean": 0.0038,
+      "null_std": 0.0197,
+      "p_value": 0.356436,
+      "q_value": 0.36371,
+      "effect_size": 0.36,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000188536",
+      "observed_r": 0.0047,
+      "null_mean": 0.0014,
+      "null_std": 0.02,
+      "p_value": 0.475248,
+      "q_value": 0.482485,
+      "effect_size": 0.16,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000111245",
+      "observed_r": -0.0169,
+      "null_mean": -0.0043,
+      "null_std": 0.0271,
+      "p_value": 0.643564,
+      "q_value": 0.650065,
+      "effect_size": -0.46,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000109971",
+      "observed_r": -0.0145,
+      "null_mean": -0.0019,
+      "null_std": 0.0165,
+      "p_value": 0.762376,
+      "q_value": 0.766207,
+      "effect_size": -0.76,
+      "learnable": false
+    },
+    {
+      "gene": "ENSG00000044574",
+      "observed_r": -0.0213,
+      "null_mean": 0.0001,
+      "null_std": 0.017,
+      "p_value": 0.881188,
+      "q_value": 0.881188,
+      "effect_size": -1.26,
+      "learnable": false
+    }
+  ]
+}

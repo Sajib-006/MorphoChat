@@ -1,0 +1,1619 @@
+{
+  "organ": "Heart",
+  "n_slides": 4,
+  "n_studies": 1,
+  "n_genes": 200,
+  "n_spots": 7711,
+  "fold_type": "slide",
+  "n_folds": 4,
+  "summary": {
+    "mean_r": 0.1442,
+    "median_r": 0.1258,
+    "n_learnable": 21,
+    "n_uncertain": 60,
+    "n_not_learnable": 119,
+    "selfconf_vs_r_spearman": 0.734
+  },
+  "genes": [
+    {
+      "gene": "ENSG00000111341",
+      "r_loso": 0.4795,
+      "self_confidence": 0.3068,
+      "stability": null,
+      "morans_i": 0.2262,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000087086",
+      "r_loso": 0.4659,
+      "self_confidence": 0.3135,
+      "stability": null,
+      "morans_i": 0.2064,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000011465",
+      "r_loso": 0.4251,
+      "self_confidence": 0.3513,
+      "stability": null,
+      "morans_i": 0.1816,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000077942",
+      "r_loso": 0.4039,
+      "self_confidence": 0.2657,
+      "stability": null,
+      "morans_i": 0.1996,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000120885",
+      "r_loso": 0.3774,
+      "self_confidence": 0.4107,
+      "stability": null,
+      "morans_i": 0.2017,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000026025",
+      "r_loso": 0.3752,
+      "self_confidence": 0.3071,
+      "stability": null,
+      "morans_i": 0.1832,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000102265",
+      "r_loso": 0.3738,
+      "self_confidence": 0.3019,
+      "stability": null,
+      "morans_i": 0.19,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000197766",
+      "r_loso": 0.3613,
+      "self_confidence": 0.2272,
+      "stability": null,
+      "morans_i": 0.1595,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000148180",
+      "r_loso": 0.358,
+      "self_confidence": 0.2268,
+      "stability": null,
+      "morans_i": 0.2006,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000188257",
+      "r_loso": 0.3563,
+      "self_confidence": 0.242,
+      "stability": null,
+      "morans_i": 0.1797,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000149591",
+      "r_loso": 0.3512,
+      "self_confidence": 0.3087,
+      "stability": null,
+      "morans_i": 0.2183,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000197956",
+      "r_loso": 0.3465,
+      "self_confidence": 0.3105,
+      "stability": null,
+      "morans_i": 0.1847,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000187479",
+      "r_loso": 0.3446,
+      "self_confidence": 0.313,
+      "stability": null,
+      "morans_i": 0.2139,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000129538",
+      "r_loso": 0.3415,
+      "self_confidence": 0.2814,
+      "stability": null,
+      "morans_i": 0.1883,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000075624",
+      "r_loso": 0.3349,
+      "self_confidence": 0.282,
+      "stability": null,
+      "morans_i": 0.1694,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000141753",
+      "r_loso": 0.3336,
+      "self_confidence": 0.3009,
+      "stability": null,
+      "morans_i": 0.168,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000159403",
+      "r_loso": 0.3319,
+      "self_confidence": 0.2684,
+      "stability": null,
+      "morans_i": 0.1664,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000156508",
+      "r_loso": 0.3195,
+      "self_confidence": 0.2191,
+      "stability": null,
+      "morans_i": 0.1829,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000125730",
+      "r_loso": 0.3158,
+      "self_confidence": 0.2222,
+      "stability": null,
+      "morans_i": 0.1883,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000188783",
+      "r_loso": 0.3112,
+      "self_confidence": 0.2907,
+      "stability": null,
+      "morans_i": 0.1598,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000167779",
+      "r_loso": 0.3034,
+      "self_confidence": 0.3279,
+      "stability": null,
+      "morans_i": 0.1688,
+      "verdict": "learnable"
+    },
+    {
+      "gene": "ENSG00000142089",
+      "r_loso": 0.2997,
+      "self_confidence": 0.2483,
+      "stability": null,
+      "morans_i": 0.1546,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000112936",
+      "r_loso": 0.2895,
+      "self_confidence": 0.2132,
+      "stability": null,
+      "morans_i": 0.1692,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000148671",
+      "r_loso": 0.2803,
+      "self_confidence": 0.2433,
+      "stability": null,
+      "morans_i": 0.168,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000196924",
+      "r_loso": 0.2739,
+      "self_confidence": 0.2729,
+      "stability": null,
+      "morans_i": 0.1542,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000173372",
+      "r_loso": 0.2736,
+      "self_confidence": 0.2683,
+      "stability": null,
+      "morans_i": 0.173,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000019582",
+      "r_loso": 0.2659,
+      "self_confidence": 0.2141,
+      "stability": null,
+      "morans_i": 0.1653,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000139329",
+      "r_loso": 0.2579,
+      "self_confidence": 0.2885,
+      "stability": null,
+      "morans_i": 0.16,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000132386",
+      "r_loso": 0.2576,
+      "self_confidence": 0.254,
+      "stability": null,
+      "morans_i": 0.1398,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000173369",
+      "r_loso": 0.2444,
+      "self_confidence": 0.2572,
+      "stability": null,
+      "morans_i": 0.1717,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000205542",
+      "r_loso": 0.2426,
+      "self_confidence": 0.2444,
+      "stability": null,
+      "morans_i": 0.1577,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000149131",
+      "r_loso": 0.2413,
+      "self_confidence": 0.2379,
+      "stability": null,
+      "morans_i": 0.14,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000189129",
+      "r_loso": 0.2354,
+      "self_confidence": 0.2362,
+      "stability": null,
+      "morans_i": 0.1495,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000171223",
+      "r_loso": 0.2281,
+      "self_confidence": 0.2736,
+      "stability": null,
+      "morans_i": 0.1743,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000250722",
+      "r_loso": 0.2225,
+      "self_confidence": 0.2545,
+      "stability": null,
+      "morans_i": 0.1487,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000000971",
+      "r_loso": 0.2192,
+      "self_confidence": 0.2544,
+      "stability": null,
+      "morans_i": 0.1612,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000126709",
+      "r_loso": 0.2183,
+      "self_confidence": 0.1656,
+      "stability": null,
+      "morans_i": 0.1751,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000142173",
+      "r_loso": 0.2174,
+      "self_confidence": 0.2102,
+      "stability": null,
+      "morans_i": 0.1369,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000100316",
+      "r_loso": 0.215,
+      "self_confidence": 0.2305,
+      "stability": null,
+      "morans_i": 0.1579,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000115414",
+      "r_loso": 0.2127,
+      "self_confidence": 0.2878,
+      "stability": null,
+      "morans_i": 0.1694,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000092841",
+      "r_loso": 0.2126,
+      "self_confidence": 0.2055,
+      "stability": null,
+      "morans_i": 0.1542,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000196154",
+      "r_loso": 0.2126,
+      "self_confidence": 0.2373,
+      "stability": null,
+      "morans_i": 0.1653,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000125148",
+      "r_loso": 0.2104,
+      "self_confidence": 0.2448,
+      "stability": null,
+      "morans_i": 0.2384,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000182492",
+      "r_loso": 0.2094,
+      "self_confidence": 0.3238,
+      "stability": null,
+      "morans_i": 0.1911,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000182326",
+      "r_loso": 0.2088,
+      "self_confidence": 0.2522,
+      "stability": null,
+      "morans_i": 0.1418,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000131730",
+      "r_loso": 0.2065,
+      "self_confidence": 0.2285,
+      "stability": null,
+      "morans_i": 0.1506,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000087245",
+      "r_loso": 0.2064,
+      "self_confidence": 0.3042,
+      "stability": null,
+      "morans_i": 0.1269,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000120129",
+      "r_loso": 0.1963,
+      "self_confidence": 0.2427,
+      "stability": null,
+      "morans_i": 0.1637,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000050165",
+      "r_loso": 0.1951,
+      "self_confidence": 0.1244,
+      "stability": null,
+      "morans_i": 0.1722,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000148677",
+      "r_loso": 0.1916,
+      "self_confidence": 0.1145,
+      "stability": null,
+      "morans_i": 0.1865,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000135821",
+      "r_loso": 0.1892,
+      "self_confidence": 0.2245,
+      "stability": null,
+      "morans_i": 0.1402,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000189058",
+      "r_loso": 0.188,
+      "self_confidence": 0.2098,
+      "stability": null,
+      "morans_i": 0.1805,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000170801",
+      "r_loso": 0.1872,
+      "self_confidence": 0.2087,
+      "stability": null,
+      "morans_i": 0.1449,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000170345",
+      "r_loso": 0.1833,
+      "self_confidence": 0.2442,
+      "stability": null,
+      "morans_i": 0.1798,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000163110",
+      "r_loso": 0.1813,
+      "self_confidence": 0.2266,
+      "stability": null,
+      "morans_i": 0.1158,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000163191",
+      "r_loso": 0.181,
+      "self_confidence": 0.2041,
+      "stability": null,
+      "morans_i": 0.1341,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000187514",
+      "r_loso": 0.1805,
+      "self_confidence": 0.2779,
+      "stability": null,
+      "morans_i": 0.1265,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000118729",
+      "r_loso": 0.1801,
+      "self_confidence": 0.2113,
+      "stability": null,
+      "morans_i": 0.137,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000228253",
+      "r_loso": 0.179,
+      "self_confidence": 0.1789,
+      "stability": null,
+      "morans_i": 0.1562,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000135218",
+      "r_loso": 0.1782,
+      "self_confidence": 0.2135,
+      "stability": null,
+      "morans_i": 0.1491,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000185201",
+      "r_loso": 0.178,
+      "self_confidence": 0.1908,
+      "stability": null,
+      "morans_i": 0.1287,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000164687",
+      "r_loso": 0.1778,
+      "self_confidence": 0.2126,
+      "stability": null,
+      "morans_i": 0.1344,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000204287",
+      "r_loso": 0.1776,
+      "self_confidence": 0.1896,
+      "stability": null,
+      "morans_i": 0.1415,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000078114",
+      "r_loso": 0.175,
+      "self_confidence": 0.2194,
+      "stability": null,
+      "morans_i": 0.1251,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000158710",
+      "r_loso": 0.1697,
+      "self_confidence": 0.2672,
+      "stability": null,
+      "morans_i": 0.131,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000152583",
+      "r_loso": 0.1695,
+      "self_confidence": 0.2253,
+      "stability": null,
+      "morans_i": 0.1274,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000164692",
+      "r_loso": 0.1689,
+      "self_confidence": 0.2648,
+      "stability": null,
+      "morans_i": 0.1495,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000204592",
+      "r_loso": 0.1684,
+      "self_confidence": 0.2211,
+      "stability": null,
+      "morans_i": 0.1233,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000090006",
+      "r_loso": 0.1683,
+      "self_confidence": 0.2041,
+      "stability": null,
+      "morans_i": 0.1173,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000206503",
+      "r_loso": 0.1667,
+      "self_confidence": 0.2151,
+      "stability": null,
+      "morans_i": 0.1301,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000004779",
+      "r_loso": 0.1667,
+      "self_confidence": 0.1904,
+      "stability": null,
+      "morans_i": 0.1308,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000182718",
+      "r_loso": 0.1654,
+      "self_confidence": 0.1984,
+      "stability": null,
+      "morans_i": 0.1137,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000130255",
+      "r_loso": 0.1642,
+      "self_confidence": 0.2031,
+      "stability": null,
+      "morans_i": 0.1333,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000205364",
+      "r_loso": 0.1637,
+      "self_confidence": 0.2521,
+      "stability": null,
+      "morans_i": 0.2415,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000221869",
+      "r_loso": 0.1588,
+      "self_confidence": 0.1851,
+      "stability": null,
+      "morans_i": 0.1627,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000143248",
+      "r_loso": 0.1575,
+      "self_confidence": 0.237,
+      "stability": null,
+      "morans_i": 0.1306,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000128016",
+      "r_loso": 0.1568,
+      "self_confidence": 0.415,
+      "stability": null,
+      "morans_i": 0.1953,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000170807",
+      "r_loso": 0.1549,
+      "self_confidence": 0.1859,
+      "stability": null,
+      "morans_i": 0.1419,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000165949",
+      "r_loso": 0.1545,
+      "self_confidence": 0.2109,
+      "stability": null,
+      "morans_i": 0.1216,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000196616",
+      "r_loso": 0.1545,
+      "self_confidence": 0.2054,
+      "stability": null,
+      "morans_i": 0.15,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000175899",
+      "r_loso": 0.1542,
+      "self_confidence": 0.1882,
+      "stability": null,
+      "morans_i": 0.1242,
+      "verdict": "uncertain"
+    },
+    {
+      "gene": "ENSG00000036448",
+      "r_loso": 0.1427,
+      "self_confidence": 0.2253,
+      "stability": null,
+      "morans_i": 0.1346,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000184009",
+      "r_loso": 0.1424,
+      "self_confidence": 0.2562,
+      "stability": null,
+      "morans_i": 0.1427,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000130522",
+      "r_loso": 0.1423,
+      "self_confidence": 0.2822,
+      "stability": null,
+      "morans_i": 0.1514,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000123384",
+      "r_loso": 0.1376,
+      "self_confidence": 0.182,
+      "stability": null,
+      "morans_i": 0.1365,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000197958",
+      "r_loso": 0.1368,
+      "self_confidence": 0.1999,
+      "stability": null,
+      "morans_i": 0.124,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000196126",
+      "r_loso": 0.1367,
+      "self_confidence": 0.194,
+      "stability": null,
+      "morans_i": 0.1341,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198755",
+      "r_loso": 0.1367,
+      "self_confidence": 0.17,
+      "stability": null,
+      "morans_i": 0.1385,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000197616",
+      "r_loso": 0.1362,
+      "self_confidence": 0.1071,
+      "stability": null,
+      "morans_i": 0.1895,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000142156",
+      "r_loso": 0.1362,
+      "self_confidence": 0.2208,
+      "stability": null,
+      "morans_i": 0.109,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000077009",
+      "r_loso": 0.1358,
+      "self_confidence": 0.1644,
+      "stability": null,
+      "morans_i": 0.1657,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000077157",
+      "r_loso": 0.1345,
+      "self_confidence": 0.2234,
+      "stability": null,
+      "morans_i": 0.1198,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000130528",
+      "r_loso": 0.1333,
+      "self_confidence": 0.1963,
+      "stability": null,
+      "morans_i": 0.1336,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000138029",
+      "r_loso": 0.1289,
+      "self_confidence": 0.1988,
+      "stability": null,
+      "morans_i": 0.1368,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000130066",
+      "r_loso": 0.1288,
+      "self_confidence": 0.2252,
+      "stability": null,
+      "morans_i": 0.1622,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000125968",
+      "r_loso": 0.1287,
+      "self_confidence": 0.1968,
+      "stability": null,
+      "morans_i": 0.1367,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000145730",
+      "r_loso": 0.1272,
+      "self_confidence": 0.137,
+      "stability": null,
+      "morans_i": 0.1436,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000035862",
+      "r_loso": 0.1265,
+      "self_confidence": 0.177,
+      "stability": null,
+      "morans_i": 0.1147,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000172757",
+      "r_loso": 0.1264,
+      "self_confidence": 0.1674,
+      "stability": null,
+      "morans_i": 0.1366,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000245532",
+      "r_loso": 0.1263,
+      "self_confidence": 0.1712,
+      "stability": null,
+      "morans_i": 0.1204,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000099860",
+      "r_loso": 0.1253,
+      "self_confidence": 0.2584,
+      "stability": null,
+      "morans_i": 0.1871,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000107796",
+      "r_loso": 0.1238,
+      "self_confidence": 0.1074,
+      "stability": null,
+      "morans_i": 0.188,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000123358",
+      "r_loso": 0.1237,
+      "self_confidence": 0.2655,
+      "stability": null,
+      "morans_i": 0.176,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000159388",
+      "r_loso": 0.1219,
+      "self_confidence": 0.2456,
+      "stability": null,
+      "morans_i": 0.1916,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198626",
+      "r_loso": 0.1197,
+      "self_confidence": 0.1663,
+      "stability": null,
+      "morans_i": 0.1389,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000120937",
+      "r_loso": 0.1173,
+      "self_confidence": 0.3399,
+      "stability": null,
+      "morans_i": 0.2803,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000120053",
+      "r_loso": 0.1159,
+      "self_confidence": 0.1927,
+      "stability": null,
+      "morans_i": 0.1166,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000108654",
+      "r_loso": 0.1122,
+      "self_confidence": 0.1801,
+      "stability": null,
+      "morans_i": 0.1276,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198467",
+      "r_loso": 0.1105,
+      "self_confidence": 0.2121,
+      "stability": null,
+      "morans_i": 0.1382,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000179218",
+      "r_loso": 0.1088,
+      "self_confidence": 0.1847,
+      "stability": null,
+      "morans_i": 0.1234,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000132475",
+      "r_loso": 0.1083,
+      "self_confidence": 0.1801,
+      "stability": null,
+      "morans_i": 0.1224,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000115461",
+      "r_loso": 0.108,
+      "self_confidence": 0.1681,
+      "stability": null,
+      "morans_i": 0.149,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000143632",
+      "r_loso": 0.1077,
+      "self_confidence": 0.1315,
+      "stability": null,
+      "morans_i": 0.1702,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000251562",
+      "r_loso": 0.1065,
+      "self_confidence": 0.1834,
+      "stability": null,
+      "morans_i": 0.1656,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000100234",
+      "r_loso": 0.1053,
+      "self_confidence": 0.1264,
+      "stability": null,
+      "morans_i": 0.1447,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000240583",
+      "r_loso": 0.1051,
+      "self_confidence": 0.1529,
+      "stability": null,
+      "morans_i": 0.128,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000147684",
+      "r_loso": 0.105,
+      "self_confidence": 0.1628,
+      "stability": null,
+      "morans_i": 0.1311,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000164309",
+      "r_loso": 0.1047,
+      "self_confidence": 0.1701,
+      "stability": null,
+      "morans_i": 0.1178,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000204389",
+      "r_loso": 0.1041,
+      "self_confidence": 0.1348,
+      "stability": null,
+      "morans_i": 0.1479,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000197747",
+      "r_loso": 0.1034,
+      "self_confidence": 0.2131,
+      "stability": null,
+      "morans_i": 0.126,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000106991",
+      "r_loso": 0.1016,
+      "self_confidence": 0.2012,
+      "stability": null,
+      "morans_i": 0.1547,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000108518",
+      "r_loso": 0.1006,
+      "self_confidence": 0.1813,
+      "stability": null,
+      "morans_i": 0.1266,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000196262",
+      "r_loso": 0.1001,
+      "self_confidence": 0.1661,
+      "stability": null,
+      "morans_i": 0.1198,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000205678",
+      "r_loso": 0.1,
+      "self_confidence": 0.1651,
+      "stability": null,
+      "morans_i": 0.1169,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000121577",
+      "r_loso": 0.0994,
+      "self_confidence": 0.1482,
+      "stability": null,
+      "morans_i": 0.104,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000002586",
+      "r_loso": 0.0979,
+      "self_confidence": 0.1797,
+      "stability": null,
+      "morans_i": 0.1209,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000100412",
+      "r_loso": 0.0942,
+      "self_confidence": 0.1766,
+      "stability": null,
+      "morans_i": 0.1295,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000143878",
+      "r_loso": 0.0926,
+      "self_confidence": 0.1855,
+      "stability": null,
+      "morans_i": 0.1464,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198336",
+      "r_loso": 0.0895,
+      "self_confidence": 0.1054,
+      "stability": null,
+      "morans_i": 0.2099,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000168028",
+      "r_loso": 0.0887,
+      "self_confidence": 0.2008,
+      "stability": null,
+      "morans_i": 0.1221,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000104763",
+      "r_loso": 0.0868,
+      "self_confidence": 0.188,
+      "stability": null,
+      "morans_i": 0.1141,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000165629",
+      "r_loso": 0.0861,
+      "self_confidence": 0.1681,
+      "stability": null,
+      "morans_i": 0.1182,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000106631",
+      "r_loso": 0.0842,
+      "self_confidence": 0.1062,
+      "stability": null,
+      "morans_i": 0.1745,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000263155",
+      "r_loso": 0.0834,
+      "self_confidence": 0.1762,
+      "stability": null,
+      "morans_i": 0.124,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000106211",
+      "r_loso": 0.0826,
+      "self_confidence": 0.1216,
+      "stability": null,
+      "morans_i": 0.1366,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000077522",
+      "r_loso": 0.0808,
+      "self_confidence": 0.1789,
+      "stability": null,
+      "morans_i": 0.1433,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000130770",
+      "r_loso": 0.0805,
+      "self_confidence": 0.1999,
+      "stability": null,
+      "morans_i": 0.1203,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000113140",
+      "r_loso": 0.0805,
+      "self_confidence": 0.1987,
+      "stability": null,
+      "morans_i": 0.1225,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000004776",
+      "r_loso": 0.0804,
+      "self_confidence": 0.1835,
+      "stability": null,
+      "morans_i": 0.1239,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000164708",
+      "r_loso": 0.0799,
+      "self_confidence": 0.1866,
+      "stability": null,
+      "morans_i": 0.1201,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000115641",
+      "r_loso": 0.0793,
+      "self_confidence": 0.1013,
+      "stability": null,
+      "morans_i": 0.1903,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000022267",
+      "r_loso": 0.0791,
+      "self_confidence": 0.1767,
+      "stability": null,
+      "morans_i": 0.1469,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000161970",
+      "r_loso": 0.0774,
+      "self_confidence": 0.1573,
+      "stability": null,
+      "morans_i": 0.1433,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000170290",
+      "r_loso": 0.0737,
+      "self_confidence": 0.1544,
+      "stability": null,
+      "morans_i": 0.2198,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000101608",
+      "r_loso": 0.0735,
+      "self_confidence": 0.1573,
+      "stability": null,
+      "morans_i": 0.1861,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000083845",
+      "r_loso": 0.0731,
+      "self_confidence": 0.225,
+      "stability": null,
+      "morans_i": 0.1256,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000156463",
+      "r_loso": 0.0719,
+      "self_confidence": 0.139,
+      "stability": null,
+      "morans_i": 0.1218,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000140990",
+      "r_loso": 0.0706,
+      "self_confidence": 0.1797,
+      "stability": null,
+      "morans_i": 0.1223,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000197728",
+      "r_loso": 0.0697,
+      "self_confidence": 0.2291,
+      "stability": null,
+      "morans_i": 0.1249,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000010256",
+      "r_loso": 0.0696,
+      "self_confidence": 0.1513,
+      "stability": null,
+      "morans_i": 0.1333,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000124614",
+      "r_loso": 0.0689,
+      "self_confidence": 0.1585,
+      "stability": null,
+      "morans_i": 0.1304,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000137801",
+      "r_loso": 0.068,
+      "self_confidence": 0.2024,
+      "stability": null,
+      "morans_i": 0.1727,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000116251",
+      "r_loso": 0.0679,
+      "self_confidence": 0.1717,
+      "stability": null,
+      "morans_i": 0.115,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000178741",
+      "r_loso": 0.0674,
+      "self_confidence": 0.1463,
+      "stability": null,
+      "morans_i": 0.1357,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000072778",
+      "r_loso": 0.0672,
+      "self_confidence": 0.1451,
+      "stability": null,
+      "morans_i": 0.1199,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000104823",
+      "r_loso": 0.0672,
+      "self_confidence": 0.1489,
+      "stability": null,
+      "morans_i": 0.1348,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198034",
+      "r_loso": 0.0663,
+      "self_confidence": 0.1877,
+      "stability": null,
+      "morans_i": 0.1083,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000197893",
+      "r_loso": 0.0649,
+      "self_confidence": 0.1325,
+      "stability": null,
+      "morans_i": 0.1475,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000073578",
+      "r_loso": 0.0638,
+      "self_confidence": 0.1563,
+      "stability": null,
+      "morans_i": 0.1281,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000179091",
+      "r_loso": 0.0638,
+      "self_confidence": 0.16,
+      "stability": null,
+      "morans_i": 0.1204,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000166598",
+      "r_loso": 0.0636,
+      "self_confidence": 0.2318,
+      "stability": null,
+      "morans_i": 0.1268,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000140545",
+      "r_loso": 0.0625,
+      "self_confidence": 0.1647,
+      "stability": null,
+      "morans_i": 0.1242,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000110799",
+      "r_loso": 0.0614,
+      "self_confidence": 0.179,
+      "stability": null,
+      "morans_i": 0.1289,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000175206",
+      "r_loso": 0.0608,
+      "self_confidence": 0.0829,
+      "stability": null,
+      "morans_i": 0.2198,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000102804",
+      "r_loso": 0.0597,
+      "self_confidence": 0.1674,
+      "stability": null,
+      "morans_i": 0.112,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000108679",
+      "r_loso": 0.0584,
+      "self_confidence": 0.1696,
+      "stability": null,
+      "morans_i": 0.1028,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000188229",
+      "r_loso": 0.0568,
+      "self_confidence": 0.1283,
+      "stability": null,
+      "morans_i": 0.1157,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000172037",
+      "r_loso": 0.0549,
+      "self_confidence": 0.1596,
+      "stability": null,
+      "morans_i": 0.1141,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000152556",
+      "r_loso": 0.0545,
+      "self_confidence": 0.1382,
+      "stability": null,
+      "morans_i": 0.1269,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000108515",
+      "r_loso": 0.0542,
+      "self_confidence": 0.1218,
+      "stability": null,
+      "morans_i": 0.136,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000109610",
+      "r_loso": 0.0535,
+      "self_confidence": 0.1779,
+      "stability": null,
+      "morans_i": 0.1541,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000080824",
+      "r_loso": 0.0508,
+      "self_confidence": 0.1275,
+      "stability": null,
+      "morans_i": 0.1184,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000166592",
+      "r_loso": 0.0497,
+      "self_confidence": 0.1199,
+      "stability": null,
+      "morans_i": 0.1764,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000166165",
+      "r_loso": 0.0462,
+      "self_confidence": 0.1918,
+      "stability": null,
+      "morans_i": 0.1219,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000090266",
+      "r_loso": 0.0447,
+      "self_confidence": 0.1747,
+      "stability": null,
+      "morans_i": 0.1221,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000125868",
+      "r_loso": 0.0387,
+      "self_confidence": 0.1376,
+      "stability": null,
+      "morans_i": 0.1221,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000187193",
+      "r_loso": 0.0347,
+      "self_confidence": 0.2019,
+      "stability": null,
+      "morans_i": 0.1957,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000198959",
+      "r_loso": 0.0318,
+      "self_confidence": 0.2072,
+      "stability": null,
+      "morans_i": 0.155,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000134333",
+      "r_loso": 0.0316,
+      "self_confidence": 0.2006,
+      "stability": null,
+      "morans_i": 0.1244,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000169715",
+      "r_loso": 0.0297,
+      "self_confidence": 0.2292,
+      "stability": null,
+      "morans_i": 0.2258,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000100243",
+      "r_loso": 0.0241,
+      "self_confidence": 0.1504,
+      "stability": null,
+      "morans_i": 0.1106,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000128591",
+      "r_loso": 0.0229,
+      "self_confidence": 0.1375,
+      "stability": null,
+      "morans_i": 0.1695,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000168334",
+      "r_loso": 0.0225,
+      "self_confidence": 0.1965,
+      "stability": null,
+      "morans_i": 0.1639,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000092054",
+      "r_loso": 0.02,
+      "self_confidence": 0.098,
+      "stability": null,
+      "morans_i": 0.1918,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000004799",
+      "r_loso": 0.0188,
+      "self_confidence": 0.0932,
+      "stability": null,
+      "morans_i": 0.1708,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000182154",
+      "r_loso": 0.0188,
+      "self_confidence": 0.1515,
+      "stability": null,
+      "morans_i": 0.1277,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000182054",
+      "r_loso": 0.0187,
+      "self_confidence": 0.1167,
+      "stability": null,
+      "morans_i": 0.1503,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000143198",
+      "r_loso": 0.0185,
+      "self_confidence": 0.1575,
+      "stability": null,
+      "morans_i": 0.0988,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000175445",
+      "r_loso": 0.0175,
+      "self_confidence": 0.1024,
+      "stability": null,
+      "morans_i": 0.1737,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000173598",
+      "r_loso": 0.0158,
+      "self_confidence": 0.1335,
+      "stability": null,
+      "morans_i": 0.1273,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000204388",
+      "r_loso": 0.0156,
+      "self_confidence": 0.1474,
+      "stability": null,
+      "morans_i": 0.1304,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000244734",
+      "r_loso": 0.015,
+      "self_confidence": 0.123,
+      "stability": null,
+      "morans_i": 0.1839,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000117450",
+      "r_loso": 0.0108,
+      "self_confidence": 0.1464,
+      "stability": null,
+      "morans_i": 0.1417,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000265972",
+      "r_loso": 0.0105,
+      "self_confidence": 0.1697,
+      "stability": null,
+      "morans_i": 0.128,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000160808",
+      "r_loso": 0.0103,
+      "self_confidence": 0.0857,
+      "stability": null,
+      "morans_i": 0.2043,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000182534",
+      "r_loso": 0.009,
+      "self_confidence": 0.2208,
+      "stability": null,
+      "morans_i": 0.1151,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000188536",
+      "r_loso": 0.0047,
+      "self_confidence": 0.1312,
+      "stability": null,
+      "morans_i": 0.1692,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000109971",
+      "r_loso": -0.0145,
+      "self_confidence": 0.1833,
+      "stability": null,
+      "morans_i": 0.1328,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000111245",
+      "r_loso": -0.0169,
+      "self_confidence": 0.0791,
+      "stability": null,
+      "morans_i": 0.2082,
+      "verdict": "not_learnable"
+    },
+    {
+      "gene": "ENSG00000044574",
+      "r_loso": -0.0213,
+      "self_confidence": 0.1828,
+      "stability": null,
+      "morans_i": 0.1329,
+      "verdict": "not_learnable"
+    }
+  ]
+}
